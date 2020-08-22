@@ -1,2 +1,6 @@
-# leaks_generator
-Fortnite Image Leaks generator
+# Fortnite Image Leaks generator
+
+**Features:**
+- Very **FAST** Image generation.
+- Custom Background
+- Compare DATA from BenBot and Fortnite-API
