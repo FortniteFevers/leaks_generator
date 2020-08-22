@@ -13,21 +13,42 @@ import module
 urllib3.disable_warnings()
 http = urllib3.PoolManager()
 
+lang = SETTINGS.lang
+if not lang:
+    lang = "en"
+
 
 def get_response():
     with open('cache/fortniteapi.json', 'r') as fnapi_file:
         fnapi_cache = json.load(fnapi_file)
-    fnapi_new = json.loads(http.request("get", 'https://fortnite-api.com/v2/cosmetics/br/new').data.decode('utf-8'))
+    fnapi_new = json.loads(
+        http.request("get", f'https://fortnite-api.com/v2/cosmetics/br/new?language={lang}').data.decode('utf-8'))
 
     if fnapi_cache != fnapi_new:
         print("FN API NEW COSMETICS")
+        globaldata = {
+            "status": 200,
+            "data": {
+                "items": [
+                ]
+            }
+        }
+        for cosmetic in fnapi_new["data"]["items"]:
+            cosmetic["rarity"] = {
+                    "value": cosmetic["rarity"]["value"],
+                    "displayValue": cosmetic["rarity"]["displayValue"],
+                    "backendValue": cosmetic["rarity"]["backendValue"]
+                }
+            globaldata["data"]["items"].append(cosmetic)
+
         with open('cache/fortniteapi.json', 'w') as file:
             json.dump(fnapi_new, file, indent=3)
         return fnapi_new
 
     with open('cache/benbot.json', 'r') as fnapi_file:
         benbot_cache = json.load(fnapi_file)
-    benbot_new = json.loads(http.request("get", 'https://benbotfn.tk/api/v1/newCosmetics').data.decode('utf-8'))
+    benbot_new = json.loads(
+        http.request("get", f'https://benbotfn.tk/api/v1/newCosmetics?lang={lang}').data.decode('utf-8'))
     if benbot_cache != benbot_new:
         print("BENBOT NEW COSMETICS")
         with open('cache/benbot.json', 'w') as file:
@@ -50,7 +71,7 @@ def get_response():
                     "backendValue": cosmetic["backendType"]
                 },
                 "rarity": {
-                    "value": cosmetic["rarity"],
+                    "value": cosmetic["backendRarity"].split("::")[1],
                     "displayValue": cosmetic["rarity"],
                     "backendValue": cosmetic["backendRarity"]
                 },
@@ -124,4 +145,4 @@ if __name__ == "__main__":
     while True:
         print("Checking for Leaks")
         check()
-        time.sleep(15)
+        time.sleep(20)

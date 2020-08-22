@@ -1,0 +1,1162 @@
+{
+   "status": 200,
+   "data": {
+      "items": [
+         {
+            "id": "CID_826_Athena_Commando_M_FloatillaCaptain",
+            "name": "King Krab",
+            "description": "Behold my luminous krabulosity! Glow style glows at night",
+            "type": {
+               "value": "Outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/CID_826_Athena_Commando_M_FloatillaCaptain/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/CID_826_Athena_Commando_M_FloatillaCaptain/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/CID_826_Athena_Commando_M_FloatillaCaptain/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/CID_826_Athena_Commando_M_FloatillaCaptain/icon.png"
+            }
+         },
+         {
+            "id": "CID_825_Athena_Commando_F_SportsFashion",
+            "name": "Adeline",
+            "description": "Don't get caught wearing last season's looks.",
+            "type": {
+               "value": "Outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/CID_825_Athena_Commando_F_SportsFashion/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/CID_825_Athena_Commando_F_SportsFashion/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/CID_825_Athena_Commando_F_SportsFashion/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/CID_825_Athena_Commando_F_SportsFashion/icon.png"
+            }
+         },
+         {
+            "id": "Pickaxe_ID_441_IslanderFemale",
+            "name": "Tropic Axe",
+            "description": "Chop tropically.",
+            "type": {
+               "value": "Harvesting Tool",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "Uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_441_IslanderFemale/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Pickaxe_ID_441_IslanderFemale/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_441_IslanderFemale/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_441_IslanderFemale/icon.png"
+            }
+         },
+         {
+            "id": "EID_TripleScoop",
+            "name": "Freewheelin'",
+            "description": "Skate through life.",
+            "type": {
+               "value": "Emote",
+               "displayValue": "Emote",
+               "backendValue": "AthenaDance"
+            },
+            "rarity": {
+               "value": "Epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/EID_TripleScoop/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/EID_TripleScoop/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/EID_TripleScoop/icon.png"
+            }
+         },
+         {
+            "id": "CID_836_Athena_Commando_M_JonesyFlare",
+            "name": "Castaway Jonesy",
+            "description": "He's not lost, okay?",
+            "type": {
+               "value": "Outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "Uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/CID_836_Athena_Commando_M_JonesyFlare/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/CID_836_Athena_Commando_M_JonesyFlare/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/CID_836_Athena_Commando_M_JonesyFlare/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/CID_836_Athena_Commando_M_JonesyFlare/icon.png"
+            }
+         },
+         {
+            "id": "Glider_ID_230_NeonGreen",
+            "name": "Fluorescent Flier",
+            "description": "Runway-ready.",
+            "type": {
+               "value": "Glider",
+               "displayValue": "Glider",
+               "backendValue": "AthenaGlider"
+            },
+            "rarity": {
+               "value": "Uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Glider_ID_230_NeonGreen/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Glider_ID_230_NeonGreen/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Glider_ID_230_NeonGreen/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Glider_ID_230_NeonGreen/icon.png"
+            }
+         },
+         {
+            "id": "Pickaxe_ID_440_FloatillaCaptainMale1H",
+            "name": "Scoop Shot",
+            "description": "Score!",
+            "type": {
+               "value": "Harvesting Tool",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "Uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_440_FloatillaCaptainMale1H/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Pickaxe_ID_440_FloatillaCaptainMale1H/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_440_FloatillaCaptainMale1H/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_440_FloatillaCaptainMale1H/icon.png"
+            }
+         },
+         {
+            "id": "CID_834_Athena_Commando_M_Axl",
+            "name": "Axo",
+            "description": "Here to see if life on dry land lives up to the hype.",
+            "type": {
+               "value": "Outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/CID_834_Athena_Commando_M_Axl/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/CID_834_Athena_Commando_M_Axl/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/CID_834_Athena_Commando_M_Axl/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/CID_834_Athena_Commando_M_Axl/icon.png"
+            }
+         },
+         {
+            "id": "CID_833_Athena_Commando_F_TripleScoop",
+            "name": "Derby Dynamo",
+            "description": "Just try putting her in the penalty box.",
+            "type": {
+               "value": "Outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "Epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/CID_833_Athena_Commando_F_TripleScoop/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/CID_833_Athena_Commando_F_TripleScoop/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/CID_833_Athena_Commando_F_TripleScoop/icon.png"
+            }
+         },
+         {
+            "id": "CID_835_Athena_Commando_F_LadyAtlantis",
+            "name": "Bryne",
+            "description": "A genuine Atlantean princess.",
+            "type": {
+               "value": "Outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/CID_835_Athena_Commando_F_LadyAtlantis/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/CID_835_Athena_Commando_F_LadyAtlantis/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/CID_835_Athena_Commando_F_LadyAtlantis/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/CID_835_Athena_Commando_F_LadyAtlantis/icon.png"
+            }
+         },
+         {
+            "id": "EID_HailingCab",
+            "name": "Taxi!",
+            "description": "When you got places to be.",
+            "type": {
+               "value": "Emote",
+               "displayValue": "Emote",
+               "backendValue": "AthenaDance"
+            },
+            "rarity": {
+               "value": "Uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/EID_HailingCab/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/EID_HailingCab/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/EID_HailingCab/icon.png"
+            }
+         },
+         {
+            "id": "BID_591_MultibotStealth",
+            "name": "Shadow Jet Set",
+            "description": "Powered up and ready for shadowy action.",
+            "type": {
+               "value": "Back Bling",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/BID_591_MultibotStealth/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/BID_591_MultibotStealth/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/BID_591_MultibotStealth/icon.png"
+            }
+         },
+         {
+            "id": "Wrap_263_RainbowLava",
+            "name": "Rainbow Rodeo",
+            "description": "Color blasted for maximum cheer.",
+            "type": {
+               "value": "Wrap",
+               "displayValue": "Wrap",
+               "backendValue": "AthenaItemWrap"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Wrap_263_RainbowLava/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Wrap_263_RainbowLava/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Wrap_263_RainbowLava/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Wrap_263_RainbowLava/icon.png"
+            }
+         },
+         {
+            "id": "LSID_STW003_HitTheRoad_MTL",
+            "name": "Metal Team Leader",
+            "description": "Earned in the \"Hit the Road\" event in Save the World.",
+            "type": {
+               "value": "Loading Screen",
+               "displayValue": "Loading Screen",
+               "backendValue": "AthenaLoadingScreen"
+            },
+            "rarity": {
+               "value": "Uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/LSID_STW003_HitTheRoad_MTL/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/LSID_STW003_HitTheRoad_MTL/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/LSID_STW003_HitTheRoad_MTL/icon.png"
+            }
+         },
+         {
+            "id": "Pickaxe_ID_443_MaskedDancerMale",
+            "name": "Street Blade",
+            "description": "A powerful, street-sweeping polearm.",
+            "type": {
+               "value": "Harvesting Tool",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_443_MaskedDancerMale/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Pickaxe_ID_443_MaskedDancerMale/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_443_MaskedDancerMale/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_443_MaskedDancerMale/icon.png"
+            }
+         },
+         {
+            "id": "Wrap_264_SpaceWandererGlider",
+            "name": "Homescape",
+            "description": "Visions of a long lost moon.",
+            "type": {
+               "value": "Wrap",
+               "displayValue": "Wrap",
+               "backendValue": "AthenaItemWrap"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Wrap_264_SpaceWandererGlider/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Wrap_264_SpaceWandererGlider/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Wrap_264_SpaceWandererGlider/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Wrap_264_SpaceWandererGlider/icon.png"
+            }
+         },
+         {
+            "id": "Pickaxe_ID_438_AntiLlamaFemale",
+            "name": "Llama's Bane",
+            "description": "Get that loot.",
+            "type": {
+               "value": "Harvesting Tool",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "Uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_438_AntiLlamaFemale/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Pickaxe_ID_438_AntiLlamaFemale/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_438_AntiLlamaFemale/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_438_AntiLlamaFemale/icon.png"
+            }
+         },
+         {
+            "id": "Pickaxe_ID_449_TripleScoopFemale",
+            "name": "Bucky Bat",
+            "description": "Safety first.",
+            "type": {
+               "value": "Harvesting Tool",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_449_TripleScoopFemale/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Pickaxe_ID_449_TripleScoopFemale/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_449_TripleScoopFemale/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_449_TripleScoopFemale/icon.png"
+            }
+         },
+         {
+            "id": "BID_588_Axl",
+            "name": "Neon Backboard",
+            "description": "Not regulation height.",
+            "type": {
+               "value": "Back Bling",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/BID_588_Axl/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/BID_588_Axl/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/BID_588_Axl/icon.png"
+            }
+         },
+         {
+            "id": "BID_577_RaiderPink",
+            "name": "Haute Holster",
+            "description": "No knock-offs here.",
+            "type": {
+               "value": "Back Bling",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/BID_577_RaiderPink/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/BID_577_RaiderPink/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/BID_577_RaiderPink/icon.png"
+            }
+         },
+         {
+            "id": "Pickaxe_ID_445_RaiderPinkFemale1H",
+            "name": "Pom Pummelers",
+            "description": "Style, spirit, and shakability.",
+            "type": {
+               "value": "Harvesting Tool",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "Uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_445_RaiderPinkFemale1H/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Pickaxe_ID_445_RaiderPinkFemale1H/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_445_RaiderPinkFemale1H/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_445_RaiderPinkFemale1H/icon.png"
+            }
+         },
+         {
+            "id": "BID_578_SportsFashion",
+            "name": "Angular Chic",
+            "description": "Hit your triangles.",
+            "type": {
+               "value": "Back Bling",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/BID_578_SportsFashion/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/BID_578_SportsFashion/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/BID_578_SportsFashion/icon.png"
+            }
+         },
+         {
+            "id": "Glider_ID_231_SpaceWandererMale",
+            "name": "Starcross",
+            "description": "Ride a falling star.",
+            "type": {
+               "value": "Glider",
+               "displayValue": "Glider",
+               "backendValue": "AthenaGlider"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Glider_ID_231_SpaceWandererMale/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Glider_ID_231_SpaceWandererMale/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Glider_ID_231_SpaceWandererMale/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Glider_ID_231_SpaceWandererMale/icon.png"
+            }
+         },
+         {
+            "id": "Glider_ID_229_Angler",
+            "name": "Sky Ray",
+            "description": "Swim through the skies.",
+            "type": {
+               "value": "Glider",
+               "displayValue": "Glider",
+               "backendValue": "AthenaGlider"
+            },
+            "rarity": {
+               "value": "Epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Glider_ID_229_Angler/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Glider_ID_229_Angler/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Glider_ID_229_Angler/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Glider_ID_229_Angler/icon.png"
+            }
+         },
+         {
+            "id": "CID_822_Athena_Commando_F_Angler",
+            "name": "Mariana",
+            "description": "Champion of the ocean's light.",
+            "type": {
+               "value": "Outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "Epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/CID_822_Athena_Commando_F_Angler/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/CID_822_Athena_Commando_F_Angler/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/CID_822_Athena_Commando_F_Angler/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/CID_822_Athena_Commando_F_Angler/icon.png"
+            }
+         },
+         {
+            "id": "MusicPack_055_Switchstep",
+            "name": "Switch Up",
+            "description": "Press play and step it up.",
+            "type": {
+               "value": "Music",
+               "displayValue": "Music",
+               "backendValue": "AthenaMusicPack"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/MusicPack_055_Switchstep/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/MusicPack_055_Switchstep/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/MusicPack_055_Switchstep/icon.png"
+            }
+         },
+         {
+            "id": "BID_579_FloatillaCaptain",
+            "name": "Back Scoop",
+            "description": "Scoop it.",
+            "type": {
+               "value": "Back Bling",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/BID_579_FloatillaCaptain/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/BID_579_FloatillaCaptain/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/BID_579_FloatillaCaptain/icon.png"
+            }
+         },
+         {
+            "id": "BID_575_AnglerFemale",
+            "name": "Moon Jelly",
+            "description": "It's cute, but don't touch the tentacles.",
+            "type": {
+               "value": "Back Bling",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "Epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/BID_575_AnglerFemale/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/BID_575_AnglerFemale/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/BID_575_AnglerFemale/icon.png"
+            }
+         },
+         {
+            "id": "Pickaxe_ID_444_MultibotStealth1H",
+            "name": "Shadow Combo Cleaver",
+            "description": "Swinging shadow's force.",
+            "type": {
+               "value": "Harvesting Tool",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "Epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_444_MultibotStealth1H/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Pickaxe_ID_444_MultibotStealth1H/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_444_MultibotStealth1H/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_444_MultibotStealth1H/icon.png"
+            }
+         },
+         {
+            "id": "BID_592_JunkSamurai",
+            "name": "TBD",
+            "description": "TBD",
+            "type": {
+               "value": "Back Bling",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/BID_592_JunkSamurai/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/BID_592_JunkSamurai/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/BID_592_JunkSamurai/icon.png"
+            }
+         },
+         {
+            "id": "BID_587_TripleScoop",
+            "name": "Quad Roller",
+            "description": "Rink tested and ready to roll.",
+            "type": {
+               "value": "Back Bling",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "Epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/BID_587_TripleScoop/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/BID_587_TripleScoop/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/BID_587_TripleScoop/icon.png"
+            }
+         },
+         {
+            "id": "BID_590_MaskedDancer",
+            "name": "Chainstick Pack",
+            "description": "Built for back alley brawls.",
+            "type": {
+               "value": "Back Bling",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/BID_590_MaskedDancer/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/BID_590_MaskedDancer/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/BID_590_MaskedDancer/icon.png"
+            }
+         },
+         {
+            "id": "CID_719_Athena_Commando_F_Blonde",
+            "name": "Penny",
+            "description": "When trouble knocks, we\u2019ll build our way out.",
+            "type": {
+               "value": "Outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/CID_719_Athena_Commando_F_Blonde/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/CID_719_Athena_Commando_F_Blonde/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/CID_719_Athena_Commando_F_Blonde/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/CID_719_Athena_Commando_F_Blonde/icon.png"
+            }
+         },
+         {
+            "id": "CID_827_Athena_Commando_M_MultibotStealth",
+            "name": "Mecha Team Shadow",
+            "description": "Shadow assembly required.",
+            "type": {
+               "value": "Outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/CID_827_Athena_Commando_M_MultibotStealth/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/CID_827_Athena_Commando_M_MultibotStealth/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/CID_827_Athena_Commando_M_MultibotStealth/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/CID_827_Athena_Commando_M_MultibotStealth/icon.png"
+            }
+         },
+         {
+            "id": "CID_831_Athena_Commando_F_PIzzaPitMascot",
+            "name": "Crustina",
+            "description": "Saucy, Spicy, Right Behind You.",
+            "type": {
+               "value": "Outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "Uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/CID_831_Athena_Commando_F_PIzzaPitMascot/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/CID_831_Athena_Commando_F_PIzzaPitMascot/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/CID_831_Athena_Commando_F_PIzzaPitMascot/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/CID_831_Athena_Commando_F_PIzzaPitMascot/icon.png"
+            }
+         },
+         {
+            "id": "BID_589_LadyAtlantis",
+            "name": "Coral Cowl",
+            "description": "Regal, but impossible to keep dry.",
+            "type": {
+               "value": "Back Bling",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/BID_589_LadyAtlantis/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/BID_589_LadyAtlantis/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/BID_589_LadyAtlantis/icon.png"
+            }
+         },
+         {
+            "id": "Pickaxe_ID_448_SportsFashionFemale1H",
+            "name": "Cyclo Sticks",
+            "description": "Gyro-tuned battle batons.",
+            "type": {
+               "value": "Harvesting Tool",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_448_SportsFashionFemale1H/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Pickaxe_ID_448_SportsFashionFemale1H/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_448_SportsFashionFemale1H/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_448_SportsFashionFemale1H/icon.png"
+            }
+         },
+         {
+            "id": "BID_576_Islander",
+            "name": "Wind Shell",
+            "description": "If you listen close, you can hear the waves.",
+            "type": {
+               "value": "Back Bling",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/BID_576_Islander/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/BID_576_Islander/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/BID_576_Islander/icon.png"
+            }
+         },
+         {
+            "id": "Wrap_262_Angler",
+            "name": "Salty Glow",
+            "description": "Deep sea shine.",
+            "type": {
+               "value": "Wrap",
+               "displayValue": "Wrap",
+               "backendValue": "AthenaItemWrap"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Wrap_262_Angler/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Wrap_262_Angler/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Wrap_262_Angler/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Wrap_262_Angler/icon.png"
+            }
+         },
+         {
+            "id": "Pickaxe_ID_446_SeaSalt",
+            "name": "Hulk Smashers",
+            "description": "Hulk Smash!",
+            "type": {
+               "value": "Harvesting Tool",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "Epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_446_SeaSalt/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Pickaxe_ID_446_SeaSalt/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_446_SeaSalt/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_446_SeaSalt/icon.png"
+            }
+         },
+         {
+            "id": "Wrap_265_SpinningStars",
+            "name": "Sticker Star",
+            "description": "Approved by the United Unicorn Council.",
+            "type": {
+               "value": "Wrap",
+               "displayValue": "Wrap",
+               "backendValue": "AthenaItemWrap"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Wrap_265_SpinningStars/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Wrap_265_SpinningStars/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Wrap_265_SpinningStars/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Wrap_265_SpinningStars/icon.png"
+            }
+         },
+         {
+            "id": "CID_832_Athena_Commando_F_AntiLlama",
+            "name": "Splatterella",
+            "description": "Llamas beware.",
+            "type": {
+               "value": "Outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/CID_832_Athena_Commando_F_AntiLlama/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/CID_832_Athena_Commando_F_AntiLlama/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/CID_832_Athena_Commando_F_AntiLlama/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/CID_832_Athena_Commando_F_AntiLlama/icon.png"
+            }
+         },
+         {
+            "id": "Pickaxe_ID_447_SpaceWandererMale",
+            "name": "Shooting Starstaff",
+            "description": "May the stars guide you home.",
+            "type": {
+               "value": "Harvesting Tool",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_447_SpaceWandererMale/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Pickaxe_ID_447_SpaceWandererMale/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_447_SpaceWandererMale/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_447_SpaceWandererMale/icon.png"
+            }
+         },
+         {
+            "id": "Pickaxe_ID_439_AxlMale",
+            "name": "Axe-olotl",
+            "description": "Built for the busy axolotl on the go.",
+            "type": {
+               "value": "Harvesting Tool",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "Uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_439_AxlMale/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Pickaxe_ID_439_AxlMale/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_439_AxlMale/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_439_AxlMale/icon.png"
+            }
+         },
+         {
+            "id": "Pickaxe_ID_436_AnglerFemale1H",
+            "name": "Trench Blades",
+            "description": "Wield the murky might of the ocean's deep.",
+            "type": {
+               "value": "Harvesting Tool",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_436_AnglerFemale1H/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Pickaxe_ID_436_AnglerFemale1H/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_436_AnglerFemale1H/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_436_AnglerFemale1H/icon.png"
+            }
+         },
+         {
+            "id": "CID_838_Athena_Commando_M_JunkSamurai",
+            "name": "TBD",
+            "description": "TBD",
+            "type": {
+               "value": "Outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "Epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/CID_838_Athena_Commando_M_JunkSamurai/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/CID_838_Athena_Commando_M_JunkSamurai/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/CID_838_Athena_Commando_M_JunkSamurai/icon.png"
+            }
+         },
+         {
+            "id": "CID_837_Athena_Commando_M_MaskedDancer",
+            "name": "Seeker",
+            "description": "Nothing's lost that can't be found.",
+            "type": {
+               "value": "Outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/CID_837_Athena_Commando_M_MaskedDancer/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/CID_837_Athena_Commando_M_MaskedDancer/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/CID_837_Athena_Commando_M_MaskedDancer/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/CID_837_Athena_Commando_M_MaskedDancer/icon.png"
+            }
+         },
+         {
+            "id": "EID_RichFam",
+            "name": "It's Complicated",
+            "description": "Turn some heads.",
+            "type": {
+               "value": "Emote",
+               "displayValue": "Emote",
+               "backendValue": "AthenaDance"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/EID_RichFam/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/EID_RichFam/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/EID_RichFam/icon.png"
+            }
+         },
+         {
+            "id": "EID_LetsPlay",
+            "name": "Raise The Cup",
+            "description": "Winning looks good on you.",
+            "type": {
+               "value": "Emote",
+               "displayValue": "Emote",
+               "backendValue": "AthenaDance"
+            },
+            "rarity": {
+               "value": "Uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/EID_LetsPlay/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/EID_LetsPlay/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/EID_LetsPlay/icon.png"
+            }
+         },
+         {
+            "id": "CID_830_Athena_Commando_M_SpaceWanderer",
+            "name": "Deo",
+            "description": "His journey continues.",
+            "type": {
+               "value": "Outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "Epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/CID_830_Athena_Commando_M_SpaceWanderer/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/CID_830_Athena_Commando_M_SpaceWanderer/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/CID_830_Athena_Commando_M_SpaceWanderer/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/CID_830_Athena_Commando_M_SpaceWanderer/icon.png"
+            }
+         },
+         {
+            "id": "CID_824_Athena_Commando_F_RaiderPink",
+            "name": "Athleisure Assassin",
+            "description": "Definitely not off-the-rack.",
+            "type": {
+               "value": "Outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/CID_824_Athena_Commando_F_RaiderPink/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/CID_824_Athena_Commando_F_RaiderPink/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/CID_824_Athena_Commando_F_RaiderPink/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/CID_824_Athena_Commando_F_RaiderPink/icon.png"
+            }
+         },
+         {
+            "id": "BID_583_SpaceWandererMale",
+            "name": "Lunar Sim",
+            "description": "A vivid reminder of home.",
+            "type": {
+               "value": "Back Bling",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "Epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/BID_583_SpaceWandererMale/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/BID_583_SpaceWandererMale/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/BID_583_SpaceWandererMale/icon.png"
+            }
+         },
+         {
+            "id": "CID_823_Athena_Commando_F_Islander",
+            "name": "Kalia",
+            "description": "The island warrior has arrived.",
+            "type": {
+               "value": "Outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/CID_823_Athena_Commando_F_Islander/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/CID_823_Athena_Commando_F_Islander/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/CID_823_Athena_Commando_F_Islander/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/CID_823_Athena_Commando_F_Islander/icon.png"
+            }
+         },
+         {
+            "id": "BID_584_AntiLlama",
+            "name": "Llama Buster",
+            "description": "The mark of a true llamercenary.",
+            "type": {
+               "value": "Back Bling",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "Rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/BID_584_AntiLlama/icon.png",
+               "featured": null,
+               "icon": "https://benbotfn.tk/cdn/images/BID_584_AntiLlama/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/BID_584_AntiLlama/icon.png"
+            }
+         },
+         {
+            "id": "Pickaxe_ID_442_LadyAtlantisFemale",
+            "name": "Lapis Trident",
+            "description": "Carved from a single stone found at the bottom of the sea. Probably.",
+            "type": {
+               "value": "Harvesting Tool",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "Uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "images": {
+               "smallIcon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_442_LadyAtlantisFemale/icon.png",
+               "featured": "https://benbotfn.tk/cdn/images/Pickaxe_ID_442_LadyAtlantisFemale/featured.png",
+               "icon": "https://benbotfn.tk/cdn/images/Pickaxe_ID_442_LadyAtlantisFemale/icon.png",
+               "other": "https://benbotfn.tk/cdn/images/Pickaxe_ID_442_LadyAtlantisFemale/icon.png"
+            }
+         }
+      ]
+   }
+}
