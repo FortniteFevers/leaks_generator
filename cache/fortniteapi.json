@@ -1,0 +1,2861 @@
+{
+   "status": 200,
+   "data": {
+      "build": "++Fortnite+Release-13.40-CL-14113327-Windows",
+      "previousBuild": "++Fortnite+Release-13.30-CL-13884634-Windows",
+      "hash": "ccbce4993bcca88c08fda30bff57ef143a66805a",
+      "date": "2020-08-05T08:09:19Z",
+      "lastAddition": "2020-08-14T00:00:00Z",
+      "items": [
+         {
+            "id": "BannerToken_055_S13_Yonezu",
+            "name": "Banner",
+            "description": "A new icon for your banner. Assign it in the Locker.",
+            "type": {
+               "value": "banner",
+               "displayValue": "Banner",
+               "backendValue": "BannerToken"
+            },
+            "rarity": {
+               "value": "uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "series": null,
+            "set": null,
+            "introduction": null,
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bannertoken_055_s13_yonezu/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/bannertoken_055_s13_yonezu/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": null,
+            "showcaseVideo": null,
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/BannerToken/BannerToken_055_S13_Yonezu",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "BID_575_AnglerFemale",
+            "name": "Moon Jelly",
+            "description": "It's cute, but don't touch the tentacles.",
+            "type": {
+               "value": "backpack",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "series": null,
+            "set": {
+               "value": "Sea Glow",
+               "text": "Part of the Sea Glow set.",
+               "backendValue": "OceanLight"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_575_anglerfemale/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/bid_575_anglerfemale/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.UserFacingFlags.Reactive",
+               "Cosmetics.Set.OceanLight"
+            ],
+            "showcaseVideo": null,
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_575_AnglerFemale",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-22T00:00:00Z"
+            ]
+         },
+         {
+            "id": "BID_576_Islander",
+            "name": "Wind Shell",
+            "description": "If you listen close, you can hear the waves.",
+            "type": {
+               "value": "backpack",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Island Warrior",
+               "text": "Part of the Island Warrior set.",
+               "backendValue": "StreamMachine"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_576_islander/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/bid_576_islander/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.StreamMachine"
+            ],
+            "showcaseVideo": null,
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_576_Islander",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-21T00:00:00Z",
+               "2020-08-22T00:00:00Z"
+            ]
+         },
+         {
+            "id": "BID_577_RaiderPink",
+            "name": "Haute Holster",
+            "description": "No knock-offs here.",
+            "type": {
+               "value": "backpack",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Run The World",
+               "text": "Part of the Run The World set.",
+               "backendValue": "EarthSprint"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_577_raiderpink/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/bid_577_raiderpink/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.EarthSprint"
+            ],
+            "showcaseVideo": null,
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_577_RaiderPink",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "BID_578_SportsFashion",
+            "name": "Angular Chic",
+            "description": "Hit your triangles.",
+            "type": {
+               "value": "backpack",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Colorway",
+               "text": "Part of the Colorway set.",
+               "backendValue": "HueDrive"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_578_sportsfashion/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/bid_578_sportsfashion/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.HueDrive"
+            ],
+            "showcaseVideo": null,
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_578_SportsFashion",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "BID_579_FloatillaCaptain",
+            "name": "Back Scoop",
+            "description": "Scoop it.",
+            "type": {
+               "value": "backpack",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Surf & Turf",
+               "text": "Part of the Surf & Turf set.",
+               "backendValue": "FishyBeef"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_579_floatillacaptain/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/bid_579_floatillacaptain/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.FishyBeef"
+            ],
+            "showcaseVideo": null,
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_579_FloatillaCaptain",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-11T00:00:00Z"
+            ]
+         },
+         {
+            "id": "BID_583_SpaceWandererMale",
+            "name": "Lunar Sim",
+            "description": "A vivid reminder of home.",
+            "type": {
+               "value": "backpack",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "series": null,
+            "set": {
+               "value": "Ancient Voyager",
+               "text": "Part of the Ancient Voyager set.",
+               "backendValue": "OldExplorer"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_583_spacewanderermale/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/bid_583_spacewanderermale/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.OldExplorer"
+            ],
+            "showcaseVideo": null,
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_583_SpaceWandererMale",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-17T00:00:00Z"
+            ]
+         },
+         {
+            "id": "BID_584_AntiLlama",
+            "name": "Llama Buster",
+            "description": "The mark of a true llamercenary.",
+            "type": {
+               "value": "backpack",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Llamercenary",
+               "text": "Part of the Llamercenary set.",
+               "backendValue": "LlamaWarrior"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_584_antillama/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/bid_584_antillama/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.LlamaWarrior"
+            ],
+            "showcaseVideo": null,
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_584_AntiLlama",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-16T00:00:00Z"
+            ]
+         },
+         {
+            "id": "BID_587_TripleScoop",
+            "name": "Quad Roller",
+            "description": "Rink tested and ready to roll.",
+            "type": {
+               "value": "backpack",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "series": null,
+            "set": {
+               "value": "Rink Raiders",
+               "text": "Part of the Rink Raiders set.",
+               "backendValue": "SkaterBeast"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_587_triplescoop/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/bid_587_triplescoop/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": [
+               {
+                  "channel": "Parts",
+                  "type": "STYLE",
+                  "options": [
+                     {
+                        "tag": "Stage1",
+                        "name": "DEFAULT",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/bid_587_triplescoop/variants/parts/stage1.png"
+                     },
+                     {
+                        "tag": "Stage2",
+                        "name": "MINT QUAD ROLLER",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/bid_587_triplescoop/variants/parts/stage2.png"
+                     },
+                     {
+                        "tag": "Stage3",
+                        "name": "FLAMING QUAD ROLLER",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/bid_587_triplescoop/variants/parts/stage3.png"
+                     }
+                  ]
+               }
+            ],
+            "gameplayTags": [
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.UserFacingFlags.HasVariants",
+               "Cosmetics.Set.SkaterBeast"
+            ],
+            "showcaseVideo": null,
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_587_TripleScoop",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "BID_588_Axl",
+            "name": "Neon Backboard",
+            "description": "Not regulation height.",
+            "type": {
+               "value": "backpack",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Axolotl Attack!",
+               "text": "Part of the Axolotl Attack! set.",
+               "backendValue": "GekkoFight"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_588_axl/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/bid_588_axl/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": [
+               {
+                  "channel": "Parts",
+                  "type": "STYLE",
+                  "options": [
+                     {
+                        "tag": "Stage1",
+                        "name": "DEFAULT",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/bid_588_axl/variants/parts/stage1.png"
+                     },
+                     {
+                        "tag": "Stage2",
+                        "name": "DARK NEON BACKBOARD",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/bid_588_axl/variants/parts/stage2.png"
+                     },
+                     {
+                        "tag": "Stage3",
+                        "name": "AXOJET",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/bid_588_axl/variants/parts/stage3.png"
+                     },
+                     {
+                        "tag": "Stage4",
+                        "name": "RED AXOJET",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/bid_588_axl/variants/parts/stage4.png"
+                     }
+                  ]
+               }
+            ],
+            "gameplayTags": [
+               "Cosmetics.UserFacingFlags.Reactive",
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.GekkoFight",
+               "Cosmetics.UserFacingFlags.HasVariants"
+            ],
+            "showcaseVideo": null,
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_588_Axl",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-09T00:00:00Z",
+               "2020-08-10T00:00:00Z",
+               "2020-08-11T00:00:00Z"
+            ]
+         },
+         {
+            "id": "BID_589_LadyAtlantis",
+            "name": "Coral Cowl",
+            "description": "Regal, but impossible to keep dry.",
+            "type": {
+               "value": "backpack",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Reef Royalty",
+               "text": "Part of the Reef Royalty set.",
+               "backendValue": "ShoalKing"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_589_ladyatlantis/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/bid_589_ladyatlantis/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.ShoalKing"
+            ],
+            "showcaseVideo": null,
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_589_LadyAtlantis",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-09T00:00:00Z",
+               "2020-08-10T00:00:00Z",
+               "2020-08-11T00:00:00Z"
+            ]
+         },
+         {
+            "id": "BID_590_MaskedDancer",
+            "name": "Chainstick Pack",
+            "description": "Built for back alley brawls.",
+            "type": {
+               "value": "backpack",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Street Serpent",
+               "text": "Part of the Street Serpent set.",
+               "backendValue": "RoadSnake"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_590_maskeddancer/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/bid_590_maskeddancer/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.RoadSnake"
+            ],
+            "showcaseVideo": null,
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_590_MaskedDancer",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "BID_591_MultibotStealth",
+            "name": "Shadow Jet Set",
+            "description": "Powered up and ready for shadowy action.",
+            "type": {
+               "value": "backpack",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "shadow",
+               "displayValue": "Shadow Series",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": {
+               "value": "Shadow Series",
+               "image": "https://fortnite-api.com/images/cosmetics/br/series/shadowseries.png",
+               "backendValue": "ShadowSeries"
+            },
+            "set": {
+               "value": "Shadow Strike",
+               "text": "Part of the Shadow Strike set.",
+               "backendValue": "DarkPunch"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_591_multibotstealth/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/bid_591_multibotstealth/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.DarkPunch"
+            ],
+            "showcaseVideo": null,
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_591_MultibotStealth",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "BID_592_JunkSamurai",
+            "name": "TBD",
+            "description": "TBD",
+            "type": {
+               "value": "backpack",
+               "displayValue": "Back Bling",
+               "backendValue": "AthenaBackpack"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": null,
+            "introduction": null,
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_592_junksamurai/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/bid_592_junksamurai/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": null,
+            "showcaseVideo": null,
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_592_JunkSamurai",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "CID_719_Athena_Commando_F_Blonde",
+            "name": "Penny",
+            "description": "When trouble knocks, we\u2019ll build our way out.",
+            "type": {
+               "value": "outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Constructor Crew",
+               "text": "Part of the Constructor Crew set.",
+               "backendValue": "ForemanSquad"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_719_athena_commando_f_blonde/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/cid_719_athena_commando_f_blonde/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/cid_719_athena_commando_f_blonde/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.ForemanSquad"
+            ],
+            "showcaseVideo": null,
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_719_Athena_Commando_F_Blonde",
+            "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_719_Athena_Commando_F_Blonde",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_719_Athena_Commando_F_Blonde",
+            "added": "2020-08-14T00:00:00Z",
+            "shopHistory": [
+               "2020-08-14T00:00:00Z",
+               "2020-08-15T00:00:00Z"
+            ]
+         },
+         {
+            "id": "CID_822_Athena_Commando_F_Angler",
+            "name": "Mariana",
+            "description": "Champion of the ocean's light.",
+            "type": {
+               "value": "outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "series": null,
+            "set": {
+               "value": "Sea Glow",
+               "text": "Part of the Sea Glow set.",
+               "backendValue": "OceanLight"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_822_athena_commando_f_angler/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/cid_822_athena_commando_f_angler/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/cid_822_athena_commando_f_angler/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.OceanLight",
+               "Cosmetics.UserFacingFlags.Reactive"
+            ],
+            "showcaseVideo": "mKV7RBDbNjQ",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_822_Athena_Commando_F_Angler",
+            "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_822_Athena_Commando_F_Angler",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_822_Athena_Commando_F_Angler",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-22T00:00:00Z"
+            ]
+         },
+         {
+            "id": "CID_823_Athena_Commando_F_Islander",
+            "name": "Kalia",
+            "description": "The island warrior has arrived.",
+            "type": {
+               "value": "outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Island Warrior",
+               "text": "Part of the Island Warrior set.",
+               "backendValue": "StreamMachine"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_823_athena_commando_f_islander/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/cid_823_athena_commando_f_islander/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/cid_823_athena_commando_f_islander/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.StreamMachine"
+            ],
+            "showcaseVideo": "6jckGIC8XMs",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_823_Athena_Commando_F_Islander",
+            "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_823_Athena_Commando_F_Islander",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_823_Athena_Commando_F_Islander",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-21T00:00:00Z",
+               "2020-08-22T00:00:00Z"
+            ]
+         },
+         {
+            "id": "CID_824_Athena_Commando_F_RaiderPink",
+            "name": "Athleisure Assassin",
+            "description": "Definitely not off-the-rack.",
+            "type": {
+               "value": "outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Run The World",
+               "text": "Part of the Run The World set.",
+               "backendValue": "EarthSprint"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_824_athena_commando_f_raiderpink/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/cid_824_athena_commando_f_raiderpink/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/cid_824_athena_commando_f_raiderpink/featured.png",
+               "other": null
+            },
+            "variants": [
+               {
+                  "channel": "Material",
+                  "type": "STYLE",
+                  "options": [
+                     {
+                        "tag": "Mat1",
+                        "name": "DEFAULT",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_824_athena_commando_f_raiderpink/variants/material/mat1.png"
+                     },
+                     {
+                        "tag": "Mat2",
+                        "name": "NO HAT",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_824_athena_commando_f_raiderpink/variants/material/mat2.png"
+                     },
+                     {
+                        "tag": "Mat3",
+                        "name": "NO GLASSES",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_824_athena_commando_f_raiderpink/variants/material/mat3.png"
+                     },
+                     {
+                        "tag": "Mat4",
+                        "name": "NO MASK",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_824_athena_commando_f_raiderpink/variants/material/mat4.png"
+                     },
+                     {
+                        "tag": "Mat5",
+                        "name": "ALL OFF",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_824_athena_commando_f_raiderpink/variants/material/mat5.png"
+                     }
+                  ]
+               }
+            ],
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.UserFacingFlags.HasVariants",
+               "Cosmetics.Set.EarthSprint"
+            ],
+            "showcaseVideo": "KAVcTbgfi9g",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_824_Athena_Commando_F_RaiderPink",
+            "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_824_Athena_Commando_F_RaiderPink",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_824_Athena_Commando_F_RaiderPink",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "CID_825_Athena_Commando_F_SportsFashion",
+            "name": "Adeline",
+            "description": "Don't get caught wearing last season's looks.",
+            "type": {
+               "value": "outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Colorway",
+               "text": "Part of the Colorway set.",
+               "backendValue": "HueDrive"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_825_athena_commando_f_sportsfashion/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/cid_825_athena_commando_f_sportsfashion/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/cid_825_athena_commando_f_sportsfashion/featured.png",
+               "other": null
+            },
+            "variants": [
+               {
+                  "channel": "Parts",
+                  "type": "STYLE",
+                  "options": [
+                     {
+                        "tag": "Stage1",
+                        "name": "DEFAULT",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_825_athena_commando_f_sportsfashion/variants/parts/stage1.png"
+                     },
+                     {
+                        "tag": "Stage2",
+                        "name": "HOOD DOWN",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_825_athena_commando_f_sportsfashion/variants/parts/stage2.png"
+                     }
+                  ]
+               }
+            ],
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.UserFacingFlags.HasVariants",
+               "Cosmetics.Set.HueDrive"
+            ],
+            "showcaseVideo": "ITWv3iCh4sQ",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_825_Athena_Commando_F_SportsFashion",
+            "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_825_Athena_Commando_F_SportsFashion",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_825_Athena_Commando_F_SportsFashion",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "CID_826_Athena_Commando_M_FloatillaCaptain",
+            "name": "King Krab",
+            "description": "Behold my luminous krabulosity! Glow style glows at night",
+            "type": {
+               "value": "outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Surf & Turf",
+               "text": "Part of the Surf & Turf set.",
+               "backendValue": "FishyBeef"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_826_athena_commando_m_floatillacaptain/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/cid_826_athena_commando_m_floatillacaptain/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/cid_826_athena_commando_m_floatillacaptain/featured.png",
+               "other": null
+            },
+            "variants": [
+               {
+                  "channel": "Material",
+                  "type": "STYLE",
+                  "options": [
+                     {
+                        "tag": "Mat1",
+                        "name": "DEFAULT",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_826_athena_commando_m_floatillacaptain/variants/material/mat1.png"
+                     },
+                     {
+                        "tag": "Mat2",
+                        "name": "GLOW",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_826_athena_commando_m_floatillacaptain/variants/material/mat2.png"
+                     }
+                  ]
+               }
+            ],
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.UserFacingFlags.Reactive",
+               "Cosmetics.UserFacingFlags.HasVariants",
+               "Cosmetics.Set.FishyBeef"
+            ],
+            "showcaseVideo": "1S6l4mbseFA",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_826_Athena_Commando_M_FloatillaCaptain",
+            "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_826_Athena_Commando_M_FloatillaCaptain",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_826_Athena_Commando_M_FloatillaCaptain",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-11T00:00:00Z"
+            ]
+         },
+         {
+            "id": "CID_827_Athena_Commando_M_MultibotStealth",
+            "name": "Mecha Team Shadow",
+            "description": "Shadow assembly required.",
+            "type": {
+               "value": "outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "shadow",
+               "displayValue": "Shadow Series",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": {
+               "value": "Shadow Series",
+               "image": "https://fortnite-api.com/images/cosmetics/br/series/shadowseries.png",
+               "backendValue": "ShadowSeries"
+            },
+            "set": {
+               "value": "Shadow Strike",
+               "text": "Part of the Shadow Strike set.",
+               "backendValue": "DarkPunch"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_827_athena_commando_m_multibotstealth/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/cid_827_athena_commando_m_multibotstealth/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/cid_827_athena_commando_m_multibotstealth/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.DarkPunch"
+            ],
+            "showcaseVideo": "XbDU0ngGYJw",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_827_Athena_Commando_M_MultibotStealth",
+            "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_827_Athena_Commando_M_MultibotStealth",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_827_Athena_Commando_M_MultibotStealth",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "CID_830_Athena_Commando_M_SpaceWanderer",
+            "name": "Deo",
+            "description": "His journey continues.",
+            "type": {
+               "value": "outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "series": null,
+            "set": {
+               "value": "Ancient Voyager",
+               "text": "Part of the Ancient Voyager set.",
+               "backendValue": "OldExplorer"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_830_athena_commando_m_spacewanderer/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/cid_830_athena_commando_m_spacewanderer/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/cid_830_athena_commando_m_spacewanderer/featured.png",
+               "other": null
+            },
+            "variants": [
+               {
+                  "channel": "Parts",
+                  "type": "STYLE",
+                  "options": [
+                     {
+                        "tag": "Stage1",
+                        "name": "DEFAULT",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_830_athena_commando_m_spacewanderer/variants/parts/stage1.png"
+                     },
+                     {
+                        "tag": "Stage2",
+                        "name": "SPACE SUIT DEO",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_830_athena_commando_m_spacewanderer/variants/parts/stage2.png"
+                     }
+                  ]
+               },
+               {
+                  "channel": "Material",
+                  "type": "COLOR",
+                  "options": [
+                     {
+                        "tag": "Mat1",
+                        "name": "DEFAULT",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_830_athena_commando_m_spacewanderer/variants/material/mat1.png"
+                     },
+                     {
+                        "tag": "Mat2",
+                        "name": "BLUE",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_830_athena_commando_m_spacewanderer/variants/material/mat2.png"
+                     }
+                  ]
+               }
+            ],
+            "gameplayTags": [
+               "Cosmetics.Set.OldExplorer",
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.UserFacingFlags.HasVariants"
+            ],
+            "showcaseVideo": "1OFZtg62kHU",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_830_Athena_Commando_M_SpaceWanderer",
+            "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_830_Athena_Commando_M_SpaceWanderer",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_830_Athena_Commando_M_SpaceWanderer",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-17T00:00:00Z"
+            ]
+         },
+         {
+            "id": "CID_831_Athena_Commando_F_PIzzaPitMascot",
+            "name": "Crustina",
+            "description": "Saucy, Spicy, Right Behind You.",
+            "type": {
+               "value": "outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "series": null,
+            "set": {
+               "value": "Pizza Pitfighter",
+               "text": "Part of the Pizza Pitfighter set.",
+               "backendValue": "PieFight"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_831_athena_commando_f_pizzapitmascot/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/cid_831_athena_commando_f_pizzapitmascot/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/cid_831_athena_commando_f_pizzapitmascot/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.PieFight"
+            ],
+            "showcaseVideo": "WkLBlmJgkMg",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_831_Athena_Commando_F_PizzaPitMascot",
+            "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_831_Athena_Commando_F_PizzaPitMascot",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_831_Athena_Commando_F_PIzzaPitMascot",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-07T00:00:00Z",
+               "2020-08-08T00:00:00Z",
+               "2020-08-09T00:00:00Z"
+            ]
+         },
+         {
+            "id": "CID_832_Athena_Commando_F_AntiLlama",
+            "name": "Splatterella",
+            "description": "Llamas beware.",
+            "type": {
+               "value": "outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Llamercenary",
+               "text": "Part of the Llamercenary set.",
+               "backendValue": "LlamaWarrior"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_832_athena_commando_f_antillama/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/cid_832_athena_commando_f_antillama/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/cid_832_athena_commando_f_antillama/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.LlamaWarrior"
+            ],
+            "showcaseVideo": "DPiHjuQQnu4",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_832_Athena_Commando_F_AntiLlama",
+            "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_832_Athena_Commando_F_AntiLlama",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_832_Athena_Commando_F_AntiLlama",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-16T00:00:00Z"
+            ]
+         },
+         {
+            "id": "CID_833_Athena_Commando_F_TripleScoop",
+            "name": "Derby Dynamo",
+            "description": "Just try putting her in the penalty box.",
+            "type": {
+               "value": "outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "series": null,
+            "set": {
+               "value": "Rink Raiders",
+               "text": "Part of the Rink Raiders set.",
+               "backendValue": "SkaterBeast"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_833_athena_commando_f_triplescoop/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/cid_833_athena_commando_f_triplescoop/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": [
+               {
+                  "channel": "Parts",
+                  "type": "STYLE",
+                  "options": [
+                     {
+                        "tag": "Stage1",
+                        "name": "DEFAULT",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_833_athena_commando_f_triplescoop/variants/parts/stage1.png"
+                     },
+                     {
+                        "tag": "Stage2",
+                        "name": "MINTY DYNAMO",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_833_athena_commando_f_triplescoop/variants/parts/stage2.png"
+                     },
+                     {
+                        "tag": "Stage3",
+                        "name": "FLAMING DYNAMO",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_833_athena_commando_f_triplescoop/variants/parts/stage3.png"
+                     }
+                  ]
+               }
+            ],
+            "gameplayTags": [
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.UserFacingFlags.HasVariants",
+               "Cosmetics.UserFacingFlags.BuiltInEmote",
+               "Cosmetics.Set.SkaterBeast"
+            ],
+            "showcaseVideo": "o71rP6re1tQ",
+            "displayAssetPath": null,
+            "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_833_Athena_Commando_F_TripleScoop",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_833_Athena_Commando_F_TripleScoop",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "CID_834_Athena_Commando_M_Axl",
+            "name": "Axo",
+            "description": "Here to see if life on dry land lives up to the hype.",
+            "type": {
+               "value": "outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Axolotl Attack!",
+               "text": "Part of the Axolotl Attack! set.",
+               "backendValue": "GekkoFight"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_834_athena_commando_m_axl/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/cid_834_athena_commando_m_axl/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/cid_834_athena_commando_m_axl/featured.png",
+               "other": null
+            },
+            "variants": [
+               {
+                  "channel": "Material",
+                  "type": "STYLE",
+                  "options": [
+                     {
+                        "tag": "Mat1",
+                        "name": "DEFAULT",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_834_athena_commando_m_axl/variants/material/mat1.png"
+                     },
+                     {
+                        "tag": "Mat2",
+                        "name": "AXO MIDNIGHT",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_834_athena_commando_m_axl/variants/material/mat2.png"
+                     }
+                  ]
+               },
+               {
+                  "channel": "Parts",
+                  "type": "TAIL",
+                  "options": [
+                     {
+                        "tag": "Stage1",
+                        "name": "ON",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_834_athena_commando_m_axl/variants/parts/stage1.png"
+                     },
+                     {
+                        "tag": "Stage2",
+                        "name": "OFF",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/cid_834_athena_commando_m_axl/variants/parts/stage2.png"
+                     }
+                  ]
+               }
+            ],
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.UserFacingFlags.HasVariants",
+               "Cosmetics.Set.GekkoFight"
+            ],
+            "showcaseVideo": "JEp4Zt7_2hQ",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_834_Athena_Commando_M_Axl",
+            "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_834_Athena_Commando_M_Axl",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_834_Athena_Commando_M_Axl",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-09T00:00:00Z",
+               "2020-08-10T00:00:00Z",
+               "2020-08-11T00:00:00Z"
+            ]
+         },
+         {
+            "id": "CID_835_Athena_Commando_F_LadyAtlantis",
+            "name": "Bryne",
+            "description": "A genuine Atlantean princess.",
+            "type": {
+               "value": "outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Reef Royalty",
+               "text": "Part of the Reef Royalty set.",
+               "backendValue": "ShoalKing"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_835_athena_commando_f_ladyatlantis/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/cid_835_athena_commando_f_ladyatlantis/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/cid_835_athena_commando_f_ladyatlantis/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.ShoalKing"
+            ],
+            "showcaseVideo": "3s8e-5HYppM",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_835_Athena_Commando_F_LadyAtlantis",
+            "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_835_Athena_Commando_F_LadyAtlantis",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_835_Athena_Commando_F_LadyAtlantis",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-09T00:00:00Z",
+               "2020-08-10T00:00:00Z",
+               "2020-08-11T00:00:00Z"
+            ]
+         },
+         {
+            "id": "CID_836_Athena_Commando_M_JonesyFlare",
+            "name": "Castaway Jonesy",
+            "description": "He's not lost, okay?",
+            "type": {
+               "value": "outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "series": null,
+            "set": null,
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_836_athena_commando_m_jonesyflare/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/cid_836_athena_commando_m_jonesyflare/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/cid_836_athena_commando_m_jonesyflare/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13"
+            ],
+            "showcaseVideo": "vPwIjVfFYis",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_836_Athena_Commando_M_JonesyFlare",
+            "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_836_Athena_Commando_M_JonesyFlare",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_836_Athena_Commando_M_JonesyFlare",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-21T00:00:00Z",
+               "2020-08-22T00:00:00Z"
+            ]
+         },
+         {
+            "id": "CID_837_Athena_Commando_M_MaskedDancer",
+            "name": "Seeker",
+            "description": "Nothing's lost that can't be found.",
+            "type": {
+               "value": "outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Street Serpent",
+               "text": "Part of the Street Serpent set.",
+               "backendValue": "RoadSnake"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_837_athena_commando_m_maskeddancer/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/cid_837_athena_commando_m_maskeddancer/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/cid_837_athena_commando_m_maskeddancer/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.RoadSnake"
+            ],
+            "showcaseVideo": "0UH6O65n37w",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_CID_837_Athena_Commando_M_MaskedDancer",
+            "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_837_Athena_Commando_M_MaskedDancer",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_837_Athena_Commando_M_MaskedDancer",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "CID_838_Athena_Commando_M_JunkSamurai",
+            "name": "TBD",
+            "description": "TBD",
+            "type": {
+               "value": "outfit",
+               "displayValue": "Outfit",
+               "backendValue": "AthenaCharacter"
+            },
+            "rarity": {
+               "value": "epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "series": null,
+            "set": null,
+            "introduction": null,
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_838_athena_commando_m_junksamurai/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/cid_838_athena_commando_m_junksamurai/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": null,
+            "showcaseVideo": null,
+            "displayAssetPath": null,
+            "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_838_Athena_Commando_M_JunkSamurai",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_838_Athena_Commando_M_JunkSamurai",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "EID_HailingCab",
+            "name": "Taxi!",
+            "description": "When you got places to be.",
+            "type": {
+               "value": "emote",
+               "displayValue": "Emote",
+               "backendValue": "AthenaDance"
+            },
+            "rarity": {
+               "value": "uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "series": null,
+            "set": null,
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_hailingcab/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_hailingcab/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.EmoteType.Dance",
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13"
+            ],
+            "showcaseVideo": "v4tu8zRru6w",
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_HailingCab",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-06T00:00:00Z"
+            ]
+         },
+         {
+            "id": "EID_LetsPlay",
+            "name": "Raise The Cup",
+            "description": "Winning looks good on you.",
+            "type": {
+               "value": "emote",
+               "displayValue": "Emote",
+               "backendValue": "AthenaDance"
+            },
+            "rarity": {
+               "value": "uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "series": null,
+            "set": null,
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_letsplay/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_letsplay/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.EmoteType.Dance",
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13"
+            ],
+            "showcaseVideo": "IwbQ3A2Bquo",
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_LetsPlay",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-20T00:00:00Z",
+               "2020-08-21T00:00:00Z"
+            ]
+         },
+         {
+            "id": "EID_RichFam",
+            "name": "It's Complicated",
+            "description": "Turn some heads.",
+            "type": {
+               "value": "emote",
+               "displayValue": "Emote",
+               "backendValue": "AthenaDance"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": null,
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_richfam/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_richfam/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.EmoteType.Dance",
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Filter.Season.13"
+            ],
+            "showcaseVideo": "qkwNiR9M5ps",
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_RichFam",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "EID_TripleScoop",
+            "name": "Freewheelin'",
+            "description": "Skate through life.",
+            "type": {
+               "value": "emote",
+               "displayValue": "Emote",
+               "backendValue": "AthenaDance"
+            },
+            "rarity": {
+               "value": "epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "series": null,
+            "set": {
+               "value": "Rink Raiders",
+               "text": "Part of the Rink Raiders set.",
+               "backendValue": "SkaterBeast"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_triplescoop/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_triplescoop/icon.png",
+               "featured": null,
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.EmoteType.Dance",
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.UserFacingFlags.BuiltInEmote",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.UserFacingFlags.Emote.Traversal",
+               "Cosmetics.Set.SkaterBeast"
+            ],
+            "showcaseVideo": "sfV7-Eqa8fY",
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_TripleScoop",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "Glider_ID_229_Angler",
+            "name": "Sky Ray",
+            "description": "Swim through the skies.",
+            "type": {
+               "value": "glider",
+               "displayValue": "Glider",
+               "backendValue": "AthenaGlider"
+            },
+            "rarity": {
+               "value": "epic",
+               "displayValue": "Epic",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "series": null,
+            "set": {
+               "value": "Sea Glow",
+               "text": "Part of the Sea Glow set.",
+               "backendValue": "OceanLight"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_id_229_angler/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/glider_id_229_angler/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/glider_id_229_angler/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Source.RMT.SummerSplash",
+               "Cosmetics.Set.OceanLight"
+            ],
+            "showcaseVideo": "_md564uYNKM",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_229_Angler",
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_229_Angler",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-22T00:00:00Z"
+            ]
+         },
+         {
+            "id": "Glider_ID_230_NeonGreen",
+            "name": "Fluorescent Flier",
+            "description": "Runway-ready.",
+            "type": {
+               "value": "glider",
+               "displayValue": "Glider",
+               "backendValue": "AthenaGlider"
+            },
+            "rarity": {
+               "value": "uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "series": null,
+            "set": {
+               "value": "Colorway",
+               "text": "Part of the Colorway set.",
+               "backendValue": "HueDrive"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_id_230_neongreen/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/glider_id_230_neongreen/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/glider_id_230_neongreen/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Set.HueDrive"
+            ],
+            "showcaseVideo": "A_hRpA23Pz8",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_230_NeonGreen",
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_230_NeonGreen",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "Glider_ID_231_SpaceWandererMale",
+            "name": "Starcross",
+            "description": "Ride a falling star.",
+            "type": {
+               "value": "glider",
+               "displayValue": "Glider",
+               "backendValue": "AthenaGlider"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Ancient Voyager",
+               "text": "Part of the Ancient Voyager set.",
+               "backendValue": "OldExplorer"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_id_231_spacewanderermale/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/glider_id_231_spacewanderermale/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/glider_id_231_spacewanderermale/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Set.OldExplorer"
+            ],
+            "showcaseVideo": "w0xIe6MTjlc",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Glider_ID_231_SpaceWandererMale",
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_231_SpaceWandererMale",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-17T00:00:00Z"
+            ]
+         },
+         {
+            "id": "LSID_STW003_HitTheRoad_MTL",
+            "name": "Metal Team Leader",
+            "description": "Earned in the \"Hit the Road\" event in Save the World.",
+            "type": {
+               "value": "loadingscreen",
+               "displayValue": "Loading Screen",
+               "backendValue": "AthenaLoadingScreen"
+            },
+            "rarity": {
+               "value": "uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "series": null,
+            "set": {
+               "value": "Save the World",
+               "text": "Part of the Save the World set.",
+               "backendValue": "SaveTheWorld"
+            },
+            "introduction": null,
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/lsid_stw003_hittheroad_mtl/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/lsid_stw003_hittheroad_mtl/icon.png",
+               "featured": null,
+               "other": {
+                  "background": "https://fortnite-api.com/images/cosmetics/br/lsid_stw003_hittheroad_mtl/background.png"
+               }
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Source.Granted.SaveTheWorld",
+               "Cosmetics.Set.SaveTheWorld",
+               "Cosmetics.Filter.Event.SaveTheWorld.HitTheRoad.2019"
+            ],
+            "showcaseVideo": null,
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/LoadingScreens/LSID_STW003_HitTheRoad_MTL",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "MusicPack_055_Switchstep",
+            "name": "Switch Up",
+            "description": "Press play and step it up.",
+            "type": {
+               "value": "music",
+               "displayValue": "Music",
+               "backendValue": "AthenaMusicPack"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": null,
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/musicpack_055_switchstep/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/musicpack_055_switchstep/icon.png",
+               "featured": null,
+               "other": {
+                  "coverart": "https://fortnite-api.com/images/cosmetics/br/musicpack_055_switchstep/coverart.png"
+               }
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Source.ItemShop"
+            ],
+            "showcaseVideo": null,
+            "displayAssetPath": null,
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/MusicPacks/MusicPack_055_Switchstep",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "Pickaxe_ID_436_AnglerFemale1H",
+            "name": "Trench Blades",
+            "description": "Wield the murky might of the ocean's deep.",
+            "type": {
+               "value": "pickaxe",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Sea Glow",
+               "text": "Part of the Sea Glow set.",
+               "backendValue": "OceanLight"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_436_anglerfemale1h/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_436_anglerfemale1h/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_436_anglerfemale1h/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Pickaxe.DualWield",
+               "Cosmetics.Source.RMT.SummerSplash",
+               "Cosmetics.Set.OceanLight"
+            ],
+            "showcaseVideo": "uv3GCL0s4Ho",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_436_AnglerFemale1H",
+            "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_AnglerFemale1H",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_436_AnglerFemale1H",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-22T00:00:00Z"
+            ]
+         },
+         {
+            "id": "Pickaxe_ID_438_AntiLlamaFemale",
+            "name": "Llama's Bane",
+            "description": "Get that loot.",
+            "type": {
+               "value": "pickaxe",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "series": null,
+            "set": {
+               "value": "Llamercenary",
+               "text": "Part of the Llamercenary set.",
+               "backendValue": "LlamaWarrior"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_438_antillamafemale/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_438_antillamafemale/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_438_antillamafemale/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Set.LlamaWarrior"
+            ],
+            "showcaseVideo": "SL_sZfmvLio",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_438_AntiLlamaFemale",
+            "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_AntiLlamaFemale",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_438_AntiLlamaFemale",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-16T00:00:00Z"
+            ]
+         },
+         {
+            "id": "Pickaxe_ID_439_AxlMale",
+            "name": "Axe-olotl",
+            "description": "Built for the busy axolotl on the go.",
+            "type": {
+               "value": "pickaxe",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "series": null,
+            "set": {
+               "value": "Axolotl Attack!",
+               "text": "Part of the Axolotl Attack! set.",
+               "backendValue": "GekkoFight"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_439_axlmale/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_439_axlmale/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_439_axlmale/featured.png",
+               "other": null
+            },
+            "variants": [
+               {
+                  "channel": "Particle",
+                  "type": "Style",
+                  "options": [
+                     {
+                        "tag": "Particle1",
+                        "name": "Default",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_439_axlmale/variants/particle/particle1.png"
+                     },
+                     {
+                        "tag": "Particle2",
+                        "name": "Alter Ego",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_439_axlmale/variants/particle/particle2.png"
+                     }
+                  ]
+               }
+            ],
+            "gameplayTags": [
+               "Cosmetics.UserFacingFlags.HasVariants",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Source.RMT.SummerSplash",
+               "Cosmetics.Set.GekkoFight"
+            ],
+            "showcaseVideo": "8A-uK2o4aak",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_439_AxlMale",
+            "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_AxlMale",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_439_AxlMale",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-09T00:00:00Z",
+               "2020-08-10T00:00:00Z",
+               "2020-08-11T00:00:00Z"
+            ]
+         },
+         {
+            "id": "Pickaxe_ID_440_FloatillaCaptainMale1H",
+            "name": "Scoop Shot",
+            "description": "Score!",
+            "type": {
+               "value": "pickaxe",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "series": null,
+            "set": {
+               "value": "Surf & Turf",
+               "text": "Part of the Surf & Turf set.",
+               "backendValue": "FishyBeef"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_440_floatillacaptainmale1h/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_440_floatillacaptainmale1h/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_440_floatillacaptainmale1h/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Pickaxe.DualWield",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Source.RMT.SummerSplash",
+               "Cosmetics.Set.FishyBeef"
+            ],
+            "showcaseVideo": "-P6FW9RnMYk",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_440_FloatillaCaptainMale1H",
+            "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_FloatillaCaptainMale1H",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_440_FloatillaCaptainMale1H",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-11T00:00:00Z"
+            ]
+         },
+         {
+            "id": "Pickaxe_ID_441_IslanderFemale",
+            "name": "Tropic Axe",
+            "description": "Chop tropically.",
+            "type": {
+               "value": "pickaxe",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "series": null,
+            "set": {
+               "value": "Island Warrior",
+               "text": "Part of the Island Warrior set.",
+               "backendValue": "StreamMachine"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_441_islanderfemale/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_441_islanderfemale/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_441_islanderfemale/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Source.RMT.SummerSplash",
+               "Cosmetics.Set.StreamMachine"
+            ],
+            "showcaseVideo": "k0jZjagT3ow",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_441_IslanderFemale",
+            "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_IslanderFemale",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_441_IslanderFemale",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-21T00:00:00Z",
+               "2020-08-22T00:00:00Z"
+            ]
+         },
+         {
+            "id": "Pickaxe_ID_442_LadyAtlantisFemale",
+            "name": "Lapis Trident",
+            "description": "Carved from a single stone found at the bottom of the sea. Probably.",
+            "type": {
+               "value": "pickaxe",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "series": null,
+            "set": {
+               "value": "Reef Royalty",
+               "text": "Part of the Reef Royalty set.",
+               "backendValue": "ShoalKing"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_442_ladyatlantisfemale/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_442_ladyatlantisfemale/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_442_ladyatlantisfemale/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Source.RMT.SummerSplash",
+               "Cosmetics.Set.ShoalKing"
+            ],
+            "showcaseVideo": "cR5anjBhH3A",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_442_LadyAtlantisFemale",
+            "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_LadyAtlantisFemale",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_442_LadyAtlantisFemale",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-09T00:00:00Z",
+               "2020-08-10T00:00:00Z",
+               "2020-08-11T00:00:00Z"
+            ]
+         },
+         {
+            "id": "Pickaxe_ID_443_MaskedDancerMale",
+            "name": "Street Blade",
+            "description": "A powerful, street-sweeping polearm.",
+            "type": {
+               "value": "pickaxe",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Street Serpent",
+               "text": "Part of the Street Serpent set.",
+               "backendValue": "RoadSnake"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_443_maskeddancermale/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_443_maskeddancermale/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_443_maskeddancermale/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Source.StarterPack",
+               "Cosmetics.Set.RoadSnake"
+            ],
+            "showcaseVideo": "3XqJiIdN73M",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_443_MaskedDancerMale",
+            "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_MaskedDancerMale",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_443_MaskedDancerMale",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "Pickaxe_ID_444_MultibotStealth1H",
+            "name": "Shadow Combo Cleaver",
+            "description": "Swinging shadow's force.",
+            "type": {
+               "value": "pickaxe",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "shadow",
+               "displayValue": "Shadow Series",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "series": {
+               "value": "Shadow Series",
+               "image": "https://fortnite-api.com/images/cosmetics/br/series/shadowseries.png",
+               "backendValue": "ShadowSeries"
+            },
+            "set": {
+               "value": "Shadow Strike",
+               "text": "Part of the Shadow Strike set.",
+               "backendValue": "DarkPunch"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_444_multibotstealth1h/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_444_multibotstealth1h/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_444_multibotstealth1h/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Pickaxe.DualWield",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Set.DarkPunch"
+            ],
+            "showcaseVideo": "vtAnR5NuTog",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_444_MultibotStealth1H",
+            "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_MultibotStealth1H",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_444_MultibotStealth1H",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "Pickaxe_ID_445_RaiderPinkFemale1H",
+            "name": "Pom Pummelers",
+            "description": "Style, spirit, and shakability.",
+            "type": {
+               "value": "pickaxe",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "uncommon",
+               "displayValue": "Uncommon",
+               "backendValue": "EFortRarity::Uncommon"
+            },
+            "series": null,
+            "set": {
+               "value": "Run The World",
+               "text": "Part of the Run The World set.",
+               "backendValue": "EarthSprint"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_445_raiderpinkfemale1h/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_445_raiderpinkfemale1h/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_445_raiderpinkfemale1h/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Pickaxe.DualWield",
+               "Cosmetics.Source.RMT.SummerSplash",
+               "Cosmetics.Set.EarthSprint"
+            ],
+            "showcaseVideo": "QwRhjRzKuOI",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_445_RaiderPinkFemale1H",
+            "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_RaiderPinkFemale1H",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_445_RaiderPinkFemale1H",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "Pickaxe_ID_446_SeaSalt",
+            "name": "Hulk Smashers",
+            "description": "Hulk Smash!",
+            "type": {
+               "value": "pickaxe",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "marvel",
+               "displayValue": "MARVEL SERIES",
+               "backendValue": "EFortRarity::Epic"
+            },
+            "series": {
+               "value": "MARVEL SERIES",
+               "image": null,
+               "backendValue": "MarvelSeries"
+            },
+            "set": null,
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_446_seasalt/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_446_seasalt/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_446_seasalt/featured.png",
+               "other": null
+            },
+            "variants": [
+               {
+                  "channel": "Mesh",
+                  "type": "Style",
+                  "options": [
+                     {
+                        "tag": "Stage1",
+                        "name": "Hulk Smashers",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_446_seasalt/variants/mesh/stage1.png"
+                     },
+                     {
+                        "tag": "Stage2",
+                        "name": "Hulkbuster",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_446_seasalt/variants/mesh/stage2.png"
+                     }
+                  ]
+               }
+            ],
+            "gameplayTags": [
+               "Cosmetics.Pickaxe.DualWield",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.UserFacingFlags.HasVariants",
+               "Cosmetics.Source.ItemShop"
+            ],
+            "showcaseVideo": "uRHJQkdcKj0",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_446_SeaSalt",
+            "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_SeaSalt",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_446_SeaSalt",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "Pickaxe_ID_447_SpaceWandererMale",
+            "name": "Shooting Starstaff",
+            "description": "May the stars guide you home.",
+            "type": {
+               "value": "pickaxe",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Ancient Voyager",
+               "text": "Part of the Ancient Voyager set.",
+               "backendValue": "OldExplorer"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_447_spacewanderermale/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_447_spacewanderermale/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_447_spacewanderermale/featured.png",
+               "other": null
+            },
+            "variants": [
+               {
+                  "channel": "Particle",
+                  "type": "Color",
+                  "options": [
+                     {
+                        "tag": "Particle1",
+                        "name": "Default",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_447_spacewanderermale/variants/particle/particle1.png"
+                     },
+                     {
+                        "tag": "Particle2",
+                        "name": "Blue",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_447_spacewanderermale/variants/particle/particle2.png"
+                     }
+                  ]
+               }
+            ],
+            "gameplayTags": [
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Set.OldExplorer",
+               "Cosmetics.UserFacingFlags.HasVariants"
+            ],
+            "showcaseVideo": "VqPb3YaOjmU",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_447_SpaceWandererMale",
+            "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_SpaceWandererMale",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_447_SpaceWandererMale",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "Pickaxe_ID_448_SportsFashionFemale1H",
+            "name": "Cyclo Sticks",
+            "description": "Gyro-tuned battle batons.",
+            "type": {
+               "value": "pickaxe",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Colorway",
+               "text": "Part of the Colorway set.",
+               "backendValue": "HueDrive"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_448_sportsfashionfemale1h/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_448_sportsfashionfemale1h/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_448_sportsfashionfemale1h/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Pickaxe.DualWield",
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.Set.HueDrive"
+            ],
+            "showcaseVideo": "eYtSNiFbDH4",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_448_SportsFashionFemale1H",
+            "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_SportsFashionFemale1H",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_448_SportsFashionFemale1H",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": null
+         },
+         {
+            "id": "Pickaxe_ID_449_TripleScoopFemale",
+            "name": "Bucky Bat",
+            "description": "Safety first.",
+            "type": {
+               "value": "pickaxe",
+               "displayValue": "Harvesting Tool",
+               "backendValue": "AthenaPickaxe"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Rink Raiders",
+               "text": "Part of the Rink Raiders set.",
+               "backendValue": "SkaterBeast"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_449_triplescoopfemale/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_449_triplescoopfemale/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_449_triplescoopfemale/featured.png",
+               "other": null
+            },
+            "variants": [
+               {
+                  "channel": "Particle",
+                  "type": "Style",
+                  "options": [
+                     {
+                        "tag": "Particle1",
+                        "name": "Default",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_449_triplescoopfemale/variants/particle/particle1.png"
+                     },
+                     {
+                        "tag": "Particle2",
+                        "name": "Mint",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_449_triplescoopfemale/variants/particle/particle2.png"
+                     },
+                     {
+                        "tag": "Particle3",
+                        "name": "Flamin",
+                        "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_449_triplescoopfemale/variants/particle/particle3.png"
+                     }
+                  ]
+               }
+            ],
+            "gameplayTags": [
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.UserFacingFlags.HasVariants",
+               "Cosmetics.Source.RMT.SummerSplash",
+               "Cosmetics.Set.SkaterBeast"
+            ],
+            "showcaseVideo": "GzMm4cwPZK8",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_449_TripleScoopFemale",
+            "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_TripleScoopFemale",
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_449_TripleScoopFemale",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-20T00:00:00Z",
+               "2020-08-21T00:00:00Z"
+            ]
+         },
+         {
+            "id": "Wrap_262_Angler",
+            "name": "Salty Glow",
+            "description": "Deep sea shine.",
+            "type": {
+               "value": "wrap",
+               "displayValue": "Wrap",
+               "backendValue": "AthenaItemWrap"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Sea Glow",
+               "text": "Part of the Sea Glow set.",
+               "backendValue": "OceanLight"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_262_angler/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_262_angler/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_262_angler/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Source.RMT.SummerSplash",
+               "Cosmetics.Set.OceanLight",
+               "Cosmetics.UserFacingFlags.Wrap.Animated"
+            ],
+            "showcaseVideo": "2erYNGsHYKQ",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_262_Angler",
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_262_Angler",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-22T00:00:00Z"
+            ]
+         },
+         {
+            "id": "Wrap_263_RainbowLava",
+            "name": "Rainbow Rodeo",
+            "description": "Color blasted for maximum cheer.",
+            "type": {
+               "value": "wrap",
+               "displayValue": "Wrap",
+               "backendValue": "AthenaItemWrap"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": null,
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_263_rainbowlava/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_263_rainbowlava/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_263_rainbowlava/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.UserFacingFlags.Wrap.Animated"
+            ],
+            "showcaseVideo": "jaUmqOUiZIE",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_263_RainbowLava",
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_263_RainbowLava",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-10T00:00:00Z"
+            ]
+         },
+         {
+            "id": "Wrap_264_SpaceWandererGlider",
+            "name": "Homescape",
+            "description": "Visions of a long lost moon.",
+            "type": {
+               "value": "wrap",
+               "displayValue": "Wrap",
+               "backendValue": "AthenaItemWrap"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": {
+               "value": "Ancient Voyager",
+               "text": "Part of the Ancient Voyager set.",
+               "backendValue": "OldExplorer"
+            },
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_264_spacewandererglider/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_264_spacewandererglider/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_264_spacewandererglider/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Set.OldExplorer",
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.UserFacingFlags.Wrap.Animated"
+            ],
+            "showcaseVideo": "_9CvJ3qWWAw",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_264_SpaceWandererGlider",
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_264_SpaceWandererGlider",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-17T00:00:00Z"
+            ]
+         },
+         {
+            "id": "Wrap_265_SpinningStars",
+            "name": "Sticker Star",
+            "description": "Approved by the United Unicorn Council.",
+            "type": {
+               "value": "wrap",
+               "displayValue": "Wrap",
+               "backendValue": "AthenaItemWrap"
+            },
+            "rarity": {
+               "value": "rare",
+               "displayValue": "Rare",
+               "backendValue": "EFortRarity::Rare"
+            },
+            "series": null,
+            "set": null,
+            "introduction": {
+               "chapter": "2",
+               "season": "3",
+               "text": "Introduced in Chapter 2, Season 3.",
+               "backendValue": 13
+            },
+            "images": {
+               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_265_spinningstars/smallicon.png",
+               "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_265_spinningstars/icon.png",
+               "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_265_spinningstars/featured.png",
+               "other": null
+            },
+            "variants": null,
+            "gameplayTags": [
+               "Cosmetics.Filter.Season.13",
+               "Cosmetics.Source.ItemShop",
+               "Cosmetics.UserFacingFlags.Wrap.Animated",
+               "Cosmetics.UserFacingFlags.Reactive.WeaponFire"
+            ],
+            "showcaseVideo": "PSm31LZ-T-8",
+            "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Wrap_265_SpinningStars",
+            "definitionPath": null,
+            "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_265_SpinningStars",
+            "added": "2020-08-05T08:09:19Z",
+            "shopHistory": [
+               "2020-08-18T00:00:00Z"
+            ]
+         }
+      ]
+   }
+}
