@@ -93,7 +93,7 @@ def GenerateCard(Item):
     try:
         layer = Image.open(f"assets/Images/card_faceplate_{Rarity.lower()}.png")
         card.paste(layer, layer)
-    except Exception as ex:
+    except:
         layer = Image.open("assets/Images/card_faceplate_common.png")
         card.paste(layer, layer)
 

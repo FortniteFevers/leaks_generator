@@ -94,8 +94,6 @@ def check():
     if new is not None:
         start = time.time()
         print("Leaks detected, starting now with image generation.\n\nDONT CANCEL THE PROCESS!")
-        with open('cache.json', 'w') as file:
-            json.dump(new, file, indent=3)
         files = []
         c = 0
         for i in new["data"]["items"]:
@@ -108,29 +106,30 @@ def check():
             except:
                 continue
         if files is None:
-            return
+            raise print("No Images")
         print("Parse now all Images to one Image")
         gerundet = round(math.sqrt(len(files)) + 0.45)
         result = Image.new("RGB", (gerundet * 305 - 5, gerundet * 550 - 5))
         if SETTINGS.backgroundurl != "":
-            Background = Image.open(io.BytesIO(http.urlopen("GET", SETTINGS.backgroundurl).data)).resize(
-                (int(gerundet * 305), int(gerundet * 550)),
-                Image.ANTIALIAS)
-            result.paste(Background)
+            result.paste(Image.open(io.BytesIO(http.urlopen("GET", SETTINGS.backgroundurl).data)).resize(
+                (int(gerundet * 305 - 5), int(gerundet * 550 - 5)),
+                Image.ANTIALIAS))
         x = -305
         y = 0
         count = 0
-        for file in files:
+        for img in files:
             try:
-                file.thumbnail((305, 550, Image.ANTIALIAS))
-                w, h = file.size
+                img.thumbnail((305, 550), Image.ANTIALIAS)
+
+                w, h = img.size
+
                 if count >= gerundet:
                     y += 550
                     x = -305
                     count = 0
                 x += 305
                 count += 1
-                result.paste(file, (x, y, x + w, y + h))
+                result.paste(img, (x, y, x + w, y + h))
             except:
                 continue
         result.save(f"leaks.png", optimized=True)
