@@ -120,9 +120,7 @@ def check():
         for img in files:
             try:
                 img.thumbnail((305, 550), Image.ANTIALIAS)
-
                 w, h = img.size
-
                 if count >= gerundet:
                     y += 550
                     x = -305
