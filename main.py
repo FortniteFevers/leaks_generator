@@ -40,6 +40,7 @@ def get_response():
                 "backendValue": cosmetic["rarity"]["backendValue"]
             }
             globaldata["data"]["items"].append(cosmetic)
+
         with open('cache/fortniteapi.json', 'w') as file:
             json.dump(fnapi_new, file, indent=3)
         return fnapi_new
@@ -88,7 +89,7 @@ def check():
     new = get_response()
     if new:
         start = time.time()
-        print("\nLeaks detected\nDownloading now the Images")
+        print("\n!!!    Leaks detected    !!!\n\nDownloading now the Images")
         files = [module.GenerateCard(i) for i in new["data"]["items"]]
         if not files:
             raise print("No Images")
@@ -107,13 +108,14 @@ def check():
         for img in files:
             try:
                 img.thumbnail((305, 550), Image.ANTIALIAS)
+                w, h = img.size
                 if count >= round(math.sqrt(len(files)) + 0.45):
                     y += 550
                     x = -305
                     count = 0
                 x += 305
                 count += 1
-                result.paste(img, (x, y, x + img.size[0], y + img.size[1]))
+                result.paste(img, (x, y, x + w, y + h))
             except:
                 continue
         result.save(f"leaks.png", optimized=True)
