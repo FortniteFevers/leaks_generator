@@ -5,7 +5,7 @@ import sys
 import time
 
 import urllib3
-from PIL import Image, ImageFont, ImageDraw
+from PIL import Image
 
 import SETTINGS
 import module
@@ -25,7 +25,7 @@ def get_response():
         http.request("get", f'https://fortnite-api.com/v2/cosmetics/br/new?language={lang}').data.decode('utf-8'))
 
     if fnapi_cache != fnapi_new:
-        print("FN API NEW COSMETICS")
+        print("Fortnite-API.com was updated")
         globaldata = {
             "status": 200,
             "data": {
@@ -35,12 +35,11 @@ def get_response():
         }
         for cosmetic in fnapi_new["data"]["items"]:
             cosmetic["rarity"] = {
-                    "value": cosmetic["rarity"]["value"],
-                    "displayValue": cosmetic["rarity"]["displayValue"],
-                    "backendValue": cosmetic["rarity"]["backendValue"]
-                }
+                "value": cosmetic["rarity"]["value"],
+                "displayValue": cosmetic["rarity"]["displayValue"],
+                "backendValue": cosmetic["rarity"]["backendValue"]
+            }
             globaldata["data"]["items"].append(cosmetic)
-
         with open('cache/fortniteapi.json', 'w') as file:
             json.dump(fnapi_new, file, indent=3)
         return fnapi_new
@@ -50,39 +49,35 @@ def get_response():
     benbot_new = json.loads(
         http.request("get", f'https://benbotfn.tk/api/v1/newCosmetics?lang={lang}').data.decode('utf-8'))
     if benbot_cache != benbot_new:
-        print("BENBOT NEW COSMETICS")
+        print("BenBot was updated")
         with open('cache/benbot.json', 'w') as file:
             json.dump(benbot_new, file, indent=3)
         globaldata = {
             "status": 200,
             "data": {
-                "items": [
-                ]
+                "items": [{
+                    "id": cosmetic["id"],
+                    "name": cosmetic["name"],
+                    "description": cosmetic["description"],
+                    "type": {
+                        "value": cosmetic["shortDescription"],
+                        "displayValue": cosmetic["shortDescription"],
+                        "backendValue": cosmetic["backendType"]
+                    },
+                    "rarity": {
+                        "value": cosmetic["backendRarity"].split("::")[1],
+                        "displayValue": cosmetic["rarity"],
+                        "backendValue": cosmetic["backendRarity"]
+                    },
+                    "images": {
+                        "smallIcon": cosmetic["icons"]["icon"],
+                        "featured": cosmetic["icons"]["featured"],
+                        "icon": cosmetic["icons"]["icon"],
+                        "other": cosmetic["icons"]["icon"],
+                    }
+                } for cosmetic in benbot_new["items"]]
             }
         }
-        for cosmetic in benbot_new["items"]:
-            cosmeticdata = {
-                "id": cosmetic["id"],
-                "name": cosmetic["name"],
-                "description": cosmetic["description"],
-                "type": {
-                    "value": cosmetic["shortDescription"],
-                    "displayValue": cosmetic["shortDescription"],
-                    "backendValue": cosmetic["backendType"]
-                },
-                "rarity": {
-                    "value": cosmetic["backendRarity"].split("::")[1],
-                    "displayValue": cosmetic["rarity"],
-                    "backendValue": cosmetic["backendRarity"]
-                },
-                "images": {
-                    "smallIcon": cosmetic["icons"]["icon"],
-                    "featured": cosmetic["icons"]["featured"],
-                    "icon": cosmetic["icons"]["icon"],
-                    "other": cosmetic["icons"]["icon"],
-                }
-            }
-            globaldata["data"]["items"].append(cosmeticdata)
         with open('cache/benbot.json', 'w') as file:
             json.dump(benbot_new, file, indent=3)
         return globaldata
@@ -91,28 +86,20 @@ def get_response():
 
 def check():
     new = get_response()
-    if new is not None:
+    if new:
         start = time.time()
-        print("Leaks detected, starting now with image generation.\nDONT CANCEL THE PROCESS!")
-        files = []
-        c = 0
-        for i in new["data"]["items"]:
-            if i["name"].lower().startswith("tbd"):
-                i["images"]["featured"] = SETTINGS.placeholderurl
-            c += 1
-            try:
-                tt = time.time()
-                files.append(module.GenerateCard(i))
-                print(f"{c}/{len(new['data']['items'])} | in {round(time.time() - tt, 2)}sec")
-            except:
-                continue
-        if files is None:
+        print("\nLeaks detected\nDownloading now the Images")
+        files = [module.GenerateCard(i) for i in new["data"]["items"]]
+        if not files:
             raise print("No Images")
-        print("Parse now all Images to one Image")
-        result = Image.new("RGBA", (round(math.sqrt(len(files)) + 0.45) * 305 - 5, round(math.sqrt(len(files)) + 0.45) * 550 - 5))
+        print("Image Download completed\nPase now all Images to one Image")
+        result = Image.new("RGBA", (
+            round(math.sqrt(len(files)) + 0.45) * 305 - 5, round(math.sqrt(len(files)) + 0.45) * 550 - 5))
         if SETTINGS.backgroundurl != "":
             result.paste(Image.open(io.BytesIO(http.urlopen("GET", SETTINGS.backgroundurl).data)).resize(
-                (int(round(math.sqrt(len(files)) + 0.45) * 305 - 5), int(round(math.sqrt(len(files)) + 0.45) * 550 - 5)),
+                (
+                    int(round(math.sqrt(len(files)) + 0.45) * 305 - 5),
+                    int(round(math.sqrt(len(files)) + 0.45) * 550 - 5)),
                 Image.ANTIALIAS))
         x = -305
         y = 0
@@ -120,21 +107,19 @@ def check():
         for img in files:
             try:
                 img.thumbnail((305, 550), Image.ANTIALIAS)
-                w, h = img.size
                 if count >= round(math.sqrt(len(files)) + 0.45):
                     y += 550
                     x = -305
                     count = 0
                 x += 305
                 count += 1
-                result.paste(img, (x, y, x + w, y + h))
+                result.paste(img, (x, y, x + img.size[0], y + img.size[1]))
             except:
                 continue
-
         result.save(f"leaks.png", optimized=True)
         print(f"Finished.\n\nGenerating Image in {round(time.time() - start, 2)}sec")
         result.show()
-        time.sleep(60)
+        time.sleep(30)
         sys.exit()
 
 
