@@ -84,7 +84,9 @@
             "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_575_AnglerFemale",
             "added": "2020-08-05T08:09:19Z",
             "shopHistory": [
-               "2020-08-22T00:00:00Z"
+               "2020-08-22T00:00:00Z",
+               "2020-08-23T00:00:00Z",
+               "2020-08-24T00:00:00Z"
             ]
          },
          {
@@ -132,7 +134,8 @@
             "added": "2020-08-05T08:09:19Z",
             "shopHistory": [
                "2020-08-21T00:00:00Z",
-               "2020-08-22T00:00:00Z"
+               "2020-08-22T00:00:00Z",
+               "2020-08-23T00:00:00Z"
             ]
          },
          {
@@ -779,7 +782,9 @@
             "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_822_Athena_Commando_F_Angler",
             "added": "2020-08-05T08:09:19Z",
             "shopHistory": [
-               "2020-08-22T00:00:00Z"
+               "2020-08-22T00:00:00Z",
+               "2020-08-23T00:00:00Z",
+               "2020-08-24T00:00:00Z"
             ]
          },
          {
@@ -827,7 +832,8 @@
             "added": "2020-08-05T08:09:19Z",
             "shopHistory": [
                "2020-08-21T00:00:00Z",
-               "2020-08-22T00:00:00Z"
+               "2020-08-22T00:00:00Z",
+               "2020-08-23T00:00:00Z"
             ]
          },
          {
@@ -1503,7 +1509,8 @@
             "added": "2020-08-05T08:09:19Z",
             "shopHistory": [
                "2020-08-21T00:00:00Z",
-               "2020-08-22T00:00:00Z"
+               "2020-08-22T00:00:00Z",
+               "2020-08-23T00:00:00Z"
             ]
          },
          {
@@ -1803,7 +1810,9 @@
             "path": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/Glider_ID_229_Angler",
             "added": "2020-08-05T08:09:19Z",
             "shopHistory": [
-               "2020-08-22T00:00:00Z"
+               "2020-08-22T00:00:00Z",
+               "2020-08-23T00:00:00Z",
+               "2020-08-24T00:00:00Z"
             ]
          },
          {
@@ -1980,7 +1989,9 @@
             "definitionPath": null,
             "path": "FortniteGame/Content/Athena/Items/Cosmetics/MusicPacks/MusicPack_055_Switchstep",
             "added": "2020-08-05T08:09:19Z",
-            "shopHistory": null
+            "shopHistory": [
+               "2020-08-24T00:00:00Z"
+            ]
          },
          {
             "id": "Pickaxe_ID_436_AnglerFemale1H",
@@ -2027,7 +2038,9 @@
             "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_436_AnglerFemale1H",
             "added": "2020-08-05T08:09:19Z",
             "shopHistory": [
-               "2020-08-22T00:00:00Z"
+               "2020-08-22T00:00:00Z",
+               "2020-08-23T00:00:00Z",
+               "2020-08-24T00:00:00Z"
             ]
          },
          {
@@ -2237,7 +2250,8 @@
             "added": "2020-08-05T08:09:19Z",
             "shopHistory": [
                "2020-08-21T00:00:00Z",
-               "2020-08-22T00:00:00Z"
+               "2020-08-22T00:00:00Z",
+               "2020-08-23T00:00:00Z"
             ]
          },
          {
@@ -2718,7 +2732,9 @@
             "path": "FortniteGame/Content/Athena/Items/Cosmetics/ItemWraps/Wrap_262_Angler",
             "added": "2020-08-05T08:09:19Z",
             "shopHistory": [
-               "2020-08-22T00:00:00Z"
+               "2020-08-22T00:00:00Z",
+               "2020-08-23T00:00:00Z",
+               "2020-08-24T00:00:00Z"
             ]
          },
          {

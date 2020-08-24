@@ -5,7 +5,7 @@ import sys
 import time
 
 import urllib3
-from PIL import Image
+from PIL import Image, ImageFont, ImageDraw
 
 import SETTINGS
 import module
@@ -93,7 +93,7 @@ def check():
     new = get_response()
     if new is not None:
         start = time.time()
-        print("Leaks detected, starting now with image generation.\n\nDONT CANCEL THE PROCESS!")
+        print("Leaks detected, starting now with image generation.\nDONT CANCEL THE PROCESS!")
         files = []
         c = 0
         for i in new["data"]["items"]:
@@ -101,18 +101,18 @@ def check():
                 i["images"]["featured"] = SETTINGS.placeholderurl
             c += 1
             try:
+                tt = time.time()
                 files.append(module.GenerateCard(i))
-                print(f"{c}/{len(new['data']['items'])}")
+                print(f"{c}/{len(new['data']['items'])} | in {round(time.time() - tt, 2)}sec")
             except:
                 continue
         if files is None:
             raise print("No Images")
         print("Parse now all Images to one Image")
-        gerundet = round(math.sqrt(len(files)) + 0.45)
-        result = Image.new("RGB", (gerundet * 305 - 5, gerundet * 550 - 5))
+        result = Image.new("RGBA", (round(math.sqrt(len(files)) + 0.45) * 305 - 5, round(math.sqrt(len(files)) + 0.45) * 550 - 5))
         if SETTINGS.backgroundurl != "":
             result.paste(Image.open(io.BytesIO(http.urlopen("GET", SETTINGS.backgroundurl).data)).resize(
-                (int(gerundet * 305 - 5), int(gerundet * 550 - 5)),
+                (int(round(math.sqrt(len(files)) + 0.45) * 305 - 5), int(round(math.sqrt(len(files)) + 0.45) * 550 - 5)),
                 Image.ANTIALIAS))
         x = -305
         y = 0
@@ -121,7 +121,7 @@ def check():
             try:
                 img.thumbnail((305, 550), Image.ANTIALIAS)
                 w, h = img.size
-                if count >= gerundet:
+                if count >= round(math.sqrt(len(files)) + 0.45):
                     y += 550
                     x = -305
                     count = 0
@@ -130,9 +130,9 @@ def check():
                 result.paste(img, (x, y, x + w, y + h))
             except:
                 continue
+
         result.save(f"leaks.png", optimized=True)
-        ende = time.time()
-        print(f"Finished.\n\nGenerating Image in {round(ende - start, 2)}sec")
+        print(f"Finished.\n\nGenerating Image in {round(time.time() - start, 2)}sec")
         result.show()
         time.sleep(60)
         sys.exit()

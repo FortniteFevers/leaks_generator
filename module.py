@@ -116,6 +116,10 @@ def GenerateCard(Item):
     Top = 425 + change / 2
     Draw.text((Middle, Top), Name, (255, 255, 255), font=BurbankBigCondensed)
 
+    if SETTINGS.watermark != "":
+        font = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 25)
+        Draw.text((0, 0), SETTINGS.watermark, blendColor, font=font)
+
     return card
 
 
