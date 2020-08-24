@@ -5,3 +5,4 @@
 - Custom Background
 - Compare DATA from BenBot and Fortnite-API
 - Multi Lang Support
+- Watermark Support
