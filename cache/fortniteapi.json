@@ -1711,12 +1711,14 @@
                "Cosmetics.Source.ItemShop",
                "Cosmetics.Filter.Season.13"
             ],
-            "showcaseVideo": "qkwNiR9M5ps",
+            "showcaseVideo": "KWgpDOqtUbM",
             "displayAssetPath": null,
             "definitionPath": null,
             "path": "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_RichFam",
             "added": "2020-08-05T08:09:19Z",
-            "shopHistory": null
+            "shopHistory": [
+               "2020-08-25T00:00:00Z"
+            ]
          },
          {
             "id": "EID_TripleScoop",

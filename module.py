@@ -52,10 +52,11 @@ def GenerateCard(Item):
     blendColor = GetBlendColor(Rarity)
     Category = Item["type"]["value"]
     displayCategory = Item["type"]["displayValue"]
+
     try:
-        layer = Image.open(f"assets/Images/card_top_{Rarity.lower()}.png")
+        layer = Image.open(f"assets/Images/card_inside_{Rarity.lower()}.png")
     except:
-        layer = Image.open("assets/Images/card_top_common.png")
+        layer = Image.open("assets/Images/card_inside_common.png")
 
     card.paste(layer)
 
@@ -99,7 +100,7 @@ def GenerateCard(Item):
     textWidth = BurbankBigCondensed.getsize(f"{displayRarity.capitalize()} {displayCategory.capitalize()}")[0]
 
     Middle = int((card.width - textWidth) / 2)
-    Draw.text((Middle, 385), f"{displayRarity.capitalize()} {displayCategory.capitalize()}", blendColor,
+    Draw.text((Middle, 370), f"{displayRarity.capitalize()} {displayCategory.capitalize()}", blendColor,
               font=BurbankBigCondensed)
 
     FontSize = 56
@@ -111,7 +112,7 @@ def GenerateCard(Item):
     change = 56 - FontSize
 
     Middle = int((card.width - textWidth) / 2)
-    Top = 425 + change / 2
+    Top = 415 + change / 2
 
     Draw.text((Middle, Top), Name, (255, 255, 255), font=BurbankBigCondensed)
 
