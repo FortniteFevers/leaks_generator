@@ -96,12 +96,15 @@ def GenerateCard(Item):
         layer = Image.open("assets/Images/card_faceplate_common.png")
         card.paste(layer, layer)
 
-    BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 30)
-    textWidth = BurbankBigCondensed.getsize(f"{displayRarity.capitalize()} {displayCategory.capitalize()}")[0]
 
-    Middle = int((card.width - textWidth) / 2)
-    Draw.text((Middle, 370), f"{displayRarity.capitalize()} {displayCategory.capitalize()}", blendColor,
-              font=BurbankBigCondensed)
+    if SETTINGS.raritytext is True:
+        BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 30)
+        textWidth = BurbankBigCondensed.getsize(f"{displayRarity.capitalize()} {displayCategory.capitalize()}")[0]
+
+        Middle = int((card.width - textWidth) / 2)
+        Draw.text((Middle, 370), f"{displayRarity.capitalize()} {displayCategory.capitalize()}", blendColor,
+                  font=BurbankBigCondensed)
+
 
     FontSize = 56
     while ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", FontSize).getsize(Name)[0] > 265:
@@ -116,9 +119,27 @@ def GenerateCard(Item):
 
     Draw.text((Middle, Top), Name, (255, 255, 255), font=BurbankBigCondensed)
 
+    if SETTINGS.displayset is True:
+        try:
+            set = Item["set"]["text"]
+            FontSize = 56
+            while ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", FontSize).getsize(set)[0] > 265:
+                FontSize -= 1
+
+            BurbankBigCondensed = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", FontSize)
+            textWidth = BurbankBigCondensed.getsize(set)[0]
+            change = 56 - FontSize
+
+            Middle = int((card.width - textWidth) / 2)
+            Top = 470 + change / 2
+
+            Draw.text((Middle, Top), set, (255, 255, 255), font=BurbankBigCondensed)
+        except:
+            pass
+
     if SETTINGS.watermark != "":
-        font = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", 25)
-        Draw.text((0, 0), SETTINGS.watermark, blendColor, font=font)
+        font = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", SETTINGS.watermarksize)
+        Draw.text((0, 0), SETTINGS.watermark, (255, 255, 255), font=font)
 
     return card
 

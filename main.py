@@ -65,6 +65,9 @@ def get_response():
                         "displayValue": cosmetic["shortDescription"],
                         "backendValue": cosmetic["backendType"]
                     },
+                    "set": {
+                        "text": cosmetic["setText"],
+                    },
                     "rarity": {
                         "value": cosmetic["backendRarity"].split("::")[1],
                         "displayValue": cosmetic["rarity"],
@@ -93,7 +96,7 @@ def check():
         files = [module.GenerateCard(i) for i in new["data"]["items"]]
         if not files:
             raise print("No Images")
-        print("Image Download completed\nPase now all Images to one Image")
+        print(f"Image Download completed\nThe download taked: {round(time.time()-start, 2)}seconds\n\nParse now all Images to one Image")
         result = Image.new("RGBA", (
             round(math.sqrt(len(files)) + 0.45) * 305 - 5, round(math.sqrt(len(files)) + 0.45) * 550 - 5))
         if SETTINGS.backgroundurl != "":
@@ -129,4 +132,4 @@ if __name__ == "__main__":
     while True:
         print("Checking for Leaks")
         check()
-        time.sleep(20)
+        time.sleep(SETTINGS.interval)
