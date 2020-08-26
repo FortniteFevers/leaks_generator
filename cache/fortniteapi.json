@@ -181,7 +181,9 @@
             "definitionPath": null,
             "path": "FortniteGame/Content/Athena/Items/Cosmetics/Backpacks/BID_577_RaiderPink",
             "added": "2020-08-05T08:09:19Z",
-            "shopHistory": null
+            "shopHistory": [
+               "2020-08-26T00:00:00Z"
+            ]
          },
          {
             "id": "BID_578_SportsFashion",
@@ -912,7 +914,9 @@
             "definitionPath": "FortniteGame/Content/Athena/Heroes/HID_824_Athena_Commando_F_RaiderPink",
             "path": "FortniteGame/Content/Athena/Items/Cosmetics/Characters/CID_824_Athena_Commando_F_RaiderPink",
             "added": "2020-08-05T08:09:19Z",
-            "shopHistory": null
+            "shopHistory": [
+               "2020-08-26T00:00:00Z"
+            ]
          },
          {
             "id": "CID_825_Athena_Commando_F_SportsFashion",
@@ -2439,12 +2443,14 @@
                "Cosmetics.Source.RMT.SummerSplash",
                "Cosmetics.Set.EarthSprint"
             ],
-            "showcaseVideo": "QwRhjRzKuOI",
+            "showcaseVideo": "_UP75ewFOFI",
             "displayAssetPath": "FortniteGame/Content/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_445_RaiderPinkFemale1H",
             "definitionPath": "FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_RaiderPinkFemale1H",
             "path": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_445_RaiderPinkFemale1H",
             "added": "2020-08-05T08:09:19Z",
-            "shopHistory": null
+            "shopHistory": [
+               "2020-08-26T00:00:00Z"
+            ]
          },
          {
             "id": "Pickaxe_ID_446_SeaSalt",

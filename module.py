@@ -140,7 +140,6 @@ def GenerateCard(Item):
     if SETTINGS.watermark != "":
         font = ImageFont.truetype(f"assets/Fonts/BurbankBigCondensed-Black.otf", SETTINGS.watermarksize)
         Draw.text((0, 0), SETTINGS.watermark, (255, 255, 255), font=font)
-
     return card
 
 

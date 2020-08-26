@@ -96,7 +96,7 @@ def check():
         files = [module.GenerateCard(i) for i in new["data"]["items"]]
         if not files:
             raise print("No Images")
-        print(f"Image Download completed\nThe download taked: {round(time.time()-start, 2)}seconds\n\nParse now all Images to one Image")
+        print(f"Image Download completed\nThe download taked: {round(time.time()-start, 2)} seconds ({round(round(time.time()-start, 2) / len(new['data']['items']), 4)} seconds each Card)\n\nParse now all Images to one Image")
         result = Image.new("RGBA", (
             round(math.sqrt(len(files)) + 0.45) * 305 - 5, round(math.sqrt(len(files)) + 0.45) * 550 - 5))
         if SETTINGS.backgroundurl != "":
@@ -129,7 +129,9 @@ def check():
 
 
 if __name__ == "__main__":
+    count = 0
     while True:
-        print("Checking for Leaks")
+        count = 1 + count
+        print(f"Checking for Leaks ({count})")
         check()
         time.sleep(SETTINGS.interval)
