@@ -92,13 +92,13 @@ def check():
     new = get_response()
     if new:
         start = time.time()
-        print("\n!!!    Leaks detected    !!!\n\nDownloading now the Images")
+        print(f"\n----------------------------\n!!!    Leaks detected    !!!\n----------------------------\n\nDownloading now the {len(new['data']['items'])} Images")
         files = [module.GenerateCard(i) for i in new["data"]["items"]]
         if not files:
             raise print("No Images")
-        print(f"Image Download completed\nThe download taked: {round(time.time()-start, 2)} seconds ({round(round(time.time()-start, 2) / len(new['data']['items']), 4)} seconds each Card)\n\nParse now all Images to one Image")
+        print(f"Image Download completed\nThe download taked: {round(time.time()-start, 2)} seconds ({round(round(time.time()-start, 2) / len(new['data']['items']), 4)}sec/{len(new['data']['items'])} card)\n\nParse now all Images to one Image")
         result = Image.new("RGBA", (
-            round(math.sqrt(len(files)) + 0.45) * 305 - 5, round(math.sqrt(len(files)) + 0.45) * 550 - 5))
+            round(math.sqrt(len(files)) + 0.45) * 305 - 5, round(math.sqrt(len(files))) * 550 - 5))
         if SETTINGS.backgroundurl != "":
             result.paste(Image.open(io.BytesIO(http.urlopen("GET", SETTINGS.backgroundurl).data)).resize(
                 (

@@ -45,13 +45,22 @@ def GetBlendColor(Rarity):
 def GenerateCard(Item):
     card = Image.new("RGB", (300, 545))
     Draw = ImageDraw.Draw(card)
-
     Name = Item["name"]
+    if not Name:
+        Name = "Placeholder"
     Rarity = Item["rarity"]["value"].lower()
+    if not Rarity:
+        Rarity = "common"
     displayRarity = Item["rarity"]["displayValue"]
+    if not displayRarity:
+        displayRarity = "common"
     blendColor = GetBlendColor(Rarity)
     Category = Item["type"]["value"]
+    if not Category:
+        Category = "Placeholder"
     displayCategory = Item["type"]["displayValue"]
+    if not displayCategory:
+        displayCategory = "Placeholder"
 
     try:
         layer = Image.open(f"assets/Images/card_inside_{Rarity.lower()}.png")
