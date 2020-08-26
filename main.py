@@ -6,6 +6,7 @@ import time
 
 import urllib3
 from PIL import Image
+from colorama import init
 
 import SETTINGS
 import module
@@ -25,7 +26,7 @@ def get_response():
         http.request("get", f'https://fortnite-api.com/v2/cosmetics/br/new?language={lang}').data.decode('utf-8'))
 
     if fnapi_cache != fnapi_new:
-        print("Fortnite-API.com was updated")
+        print(Fore.GREEN + "Fortnite-API.com was updated...")
         globaldata = {
             "status": 200,
             "data": {
@@ -50,7 +51,7 @@ def get_response():
     benbot_new = json.loads(
         http.request("get", f'https://benbotfn.tk/api/v1/newCosmetics?lang={lang}').data.decode('utf-8'))
     if benbot_cache != benbot_new:
-        print("BenBot was updated")
+        print(Fore.GREEN + "BenBot was updated...")
         with open('cache/benbot.json', 'w') as file:
             json.dump(benbot_new, file, indent=3)
         globaldata = {
@@ -92,14 +93,14 @@ def check():
     new = get_response()
     if new:
         start = time.time()
-        print(f"\n----------------------------\n!!!    Leaks detected    !!!\n----------------------------\n\nDownloading now the Images")
+        print(f"\n----------------------------\n!!!   Leaks detected   !!!\n----------------------------\n\nDownloading the leaked images now...")
         if SETTINGS.onlyskins is True:
             files = [module.GenerateCard(i) for i in new["data"]["items"] if i["type"]["value"].lower() == "outfit"]
         else:
             files = [module.GenerateCard(i) for i in new["data"]["items"]]
         if not files:
             raise print("No Images")
-        print(f"Image Download completed\nThe download taked: {round(time.time()-start, 2)} seconds ({round(round(time.time()-start, 2) / len(new['data']['items']), 4)}sec/{len(new['data']['items'])} card)\n\nParse now all Images to one Image")
+        print(f"Image Download completed.\nThe download has taked: {round(time.time()-start, 2)} seconds ({round(round(time.time()-start, 2) / len(new['data']['items']), 4)}sec/{len(new['data']['items'])} card)\n\nParse now all Images to one Image")
         result = Image.new("RGBA", (
             round(math.sqrt(len(files)) + 0.45) * 305 - 5, round(math.sqrt(len(files))) * 550 - 5))
         if SETTINGS.backgroundurl != "":
@@ -125,7 +126,7 @@ def check():
             except:
                 continue
         result.save(f"leaks.png", optimized=True)
-        print(f"Finished.\n\nGenerating Image in {round(time.time() - start, 2)}sec")
+        print(f"Finished generating the image.\n\nImage generation has taken {round(time.time() - start, 2)}seconds.")
         result.show()
         time.sleep(30)
         sys.exit()
@@ -135,6 +136,6 @@ if __name__ == "__main__":
     count = 0
     while True:
         count = 1 + count
-        print(f"Checking for Leaks ({count})")
+        print(Fore.CYAN + f"Checking for Leaks... ({count})")
         check()
         time.sleep(SETTINGS.interval)
