@@ -92,8 +92,11 @@ def check():
     new = get_response()
     if new:
         start = time.time()
-        print(f"\n----------------------------\n!!!    Leaks detected    !!!\n----------------------------\n\nDownloading now the {len(new['data']['items'])} Images")
-        files = [module.GenerateCard(i) for i in new["data"]["items"]]
+        print(f"\n----------------------------\n!!!    Leaks detected    !!!\n----------------------------\n\nDownloading now the Images")
+        if SETTINGS.onlyskins is True:
+            files = [module.GenerateCard(i) for i in new["data"]["items"] if i["type"]["value"].lower() == "outfit"]
+        else:
+            files = [module.GenerateCard(i) for i in new["data"]["items"]]
         if not files:
             raise print("No Images")
         print(f"Image Download completed\nThe download taked: {round(time.time()-start, 2)} seconds ({round(round(time.time()-start, 2) / len(new['data']['items']), 4)}sec/{len(new['data']['items'])} card)\n\nParse now all Images to one Image")
