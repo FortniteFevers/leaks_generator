@@ -6,7 +6,6 @@ import time
 
 import urllib3
 from PIL import Image
-from colorama import init
 
 import SETTINGS
 import module
@@ -26,7 +25,7 @@ def get_response():
         http.request("get", f'https://fortnite-api.com/v2/cosmetics/br/new?language={lang}').data.decode('utf-8'))
 
     if fnapi_cache != fnapi_new:
-        print(Fore.GREEN + "Fortnite-API.com was updated...")
+        print("Fortnite-API.com was updated...")
         globaldata = {
             "status": 200,
             "data": {
@@ -51,7 +50,7 @@ def get_response():
     benbot_new = json.loads(
         http.request("get", f'https://benbotfn.tk/api/v1/newCosmetics?lang={lang}').data.decode('utf-8'))
     if benbot_cache != benbot_new:
-        print(Fore.GREEN + "BenBot was updated...")
+        print("BenBot was updated...")
         with open('cache/benbot.json', 'w') as file:
             json.dump(benbot_new, file, indent=3)
         globaldata = {
@@ -136,6 +135,6 @@ if __name__ == "__main__":
     count = 0
     while True:
         count = 1 + count
-        print(Fore.CYAN + f"Checking for Leaks... ({count})")
+        print(f"Checking for Leaks... ({count})")
         check()
         time.sleep(SETTINGS.interval)
