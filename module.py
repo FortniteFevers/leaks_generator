@@ -15,7 +15,7 @@ def GetBlendColor(Rarity):
     elif Rarity.lower() == "lava":
         return 234, 141, 35
     elif Rarity.lower() == "legendary":
-        return 211, 120, 65
+        return 198, 71, 35
     elif Rarity.lower() == "dark":
         return 251, 34, 223
     elif Rarity.lower() == "starwars":
