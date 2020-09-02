@@ -99,7 +99,7 @@ def check():
               f"\nDownloading now the Images")
         try:
             files = [module.GenerateCard(i) for i in new["data"]["items"] if SETTINGS.typeconfig[i["type"]["value"]] is True]
-        except KeyError:
+        except:
             print("ERROR WITH DOWNLOADING FILES.\n"
                   "THERE WAS ADDED A NEW ITEM TYPE VALUE."
                   "\nMAKE NOW A NEW IMAGE WITH ALL TYPES")
