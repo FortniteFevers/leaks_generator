@@ -19,32 +19,6 @@ if not lang:
 
 
 def get_response():
-    with open('cache/fortniteapi.json', 'r') as fnapi_file:
-        fnapi_cache = json.load(fnapi_file)
-    fnapi_new = json.loads(
-        http.request("get", f'https://fortnite-api.com/v2/cosmetics/br/new?language={lang}').data.decode('utf-8'))
-
-    if fnapi_cache != fnapi_new:
-        print("Fortnite-API.com was updated")
-        globaldata = {
-            "status": 200,
-            "data": {
-                "items": [
-                ]
-            }
-        }
-        for cosmetic in fnapi_new["data"]["items"]:
-            cosmetic["rarity"] = {
-                "value": cosmetic["rarity"]["value"],
-                "displayValue": cosmetic["rarity"]["displayValue"],
-                "backendValue": cosmetic["rarity"]["backendValue"]
-            }
-            globaldata["data"]["items"].append(cosmetic)
-
-        with open('cache/fortniteapi.json', 'w') as file:
-            json.dump(fnapi_new, file, indent=3)
-        return fnapi_new
-
     with open('cache/benbot.json', 'r') as fnapi_file:
         benbot_cache = json.load(fnapi_file)
     benbot_new = json.loads(
@@ -85,6 +59,33 @@ def get_response():
         with open('cache/benbot.json', 'w') as file:
             json.dump(benbot_new, file, indent=3)
         return globaldata
+
+    with open('cache/fortniteapi.json', 'r') as fnapi_file:
+        fnapi_cache = json.load(fnapi_file)
+    fnapi_new = json.loads(
+        http.request("get", f'https://fortnite-api.com/v2/cosmetics/br/new?language={lang}').data.decode('utf-8'))
+
+    if fnapi_cache != fnapi_new:
+        print("Fortnite-API.com was updated")
+        globaldata = {
+            "status": 200,
+            "data": {
+                "items": [
+                ]
+            }
+        }
+        for cosmetic in fnapi_new["data"]["items"]:
+            cosmetic["rarity"] = {
+                "value": cosmetic["rarity"]["value"],
+                "displayValue": cosmetic["rarity"]["displayValue"],
+                "backendValue": cosmetic["rarity"]["backendValue"]
+            }
+            globaldata["data"]["items"].append(cosmetic)
+
+        with open('cache/fortniteapi.json', 'w') as file:
+            json.dump(fnapi_new, file, indent=3)
+        return fnapi_new
+
     return None
 
 
@@ -92,13 +93,19 @@ def check():
     new = get_response()
     if new:
         start = time.time()
-        print(f"\n----------------------------\n!!!    Leaks detected    !!!\n----------------------------\n\nDownloading now the Images")
-        if SETTINGS.onlyskins is True:
-            files = [module.GenerateCard(i) for i in new["data"]["items"] if i["type"]["value"].lower() == "outfit"]
-        else:
+        print(f"\n----------------------------\n"
+              f"!!!    Leaks detected    !!!"
+              f"\n----------------------------\n"
+              f"\nDownloading now the Images")
+        try:
+            files = [module.GenerateCard(i) for i in new["data"]["items"] if SETTINGS.typeconfig[i["type"]["value"]] is True]
+        except KeyError:
+            print("ERROR WITH DOWNLOADING FILES.\n"
+                  "THERE WAS ADDED A NEW ITEM TYPE VALUE."
+                  "\nMAKE NOW A NEW IMAGE WITH ALL TYPES")
             files = [module.GenerateCard(i) for i in new["data"]["items"]]
         if not files:
-            raise print("No Images")
+            raise FileNotFoundError("No Images")
         print(f"Image Download completed\nThe download taked: {round(time.time()-start, 2)} seconds ({round(round(time.time()-start, 2) / len(new['data']['items']), 4)}sec/{len(new['data']['items'])} card)\n\nParse now all Images to one Image")
         result = Image.new("RGBA", (
             round(math.sqrt(len(files)) + 0.45) * 305 - 5, round(math.sqrt(len(files))) * 550 - 5))
